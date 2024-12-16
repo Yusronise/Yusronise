@@ -1,1 +1,15 @@
-
+ - name: VLESS ID 🇮🇩
+    server: onelink.seabank.co.id
+    port: 443
+    type: vless
+    uuid: ed272330-ec81-4092-a585-a4dd8dacb003
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mmx.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /vless=id
+      headers:
+        Host: mmx.vpnoir9r.us.kg
+    udp: true
