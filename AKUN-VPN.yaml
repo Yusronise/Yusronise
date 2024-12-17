@@ -1,3 +1,4 @@
+proxies:
  - name: VLESS ID
     server: onelink.seabank.co.id
     port: 443
