@@ -1,1 +1,16 @@
 proxies:
+- name: "(ID) PT Herza Digital Indonesia"
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: 68968be6-1697-4cad-a0d8-9fa37fdc9b76
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: "/id2"
+    headers:
+      Host: support.zoom.us.mmx.vpnoir9r.us.kg
+  udp: true
