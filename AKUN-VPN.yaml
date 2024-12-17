@@ -1,5 +1,5 @@
 proxies:
- - name: VLESS ID
+  - name: VLESS ID
     server: onelink.seabank.co.id
     port: 443
     type: vless
