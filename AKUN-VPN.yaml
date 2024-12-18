@@ -1,4 +1,19 @@
 proxies:
+  - name: id2-akamai
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 88b1a1d1-27ab-4e15-b173-8115565efe29
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.id2.free-account.us.kg
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: ava.game.naver.com.id2.free-account.us.kg
+    udp: true
   - name: VLESS ID
     server: ava.game.naver.com
     port: 443
