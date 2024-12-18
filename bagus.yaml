@@ -29,3 +29,18 @@ proxies:
     headers:
       Host: support.zoom.us.masbodong.us.kg
   udp: true
+  - name: id2-akamai
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 88b1a1d1-27ab-4e15-b173-8115565efe29
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id2.free-account.us.kg
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: support.zoom.us.id2.free-account.us.kg
+    udp: true
