@@ -1,1 +1,47 @@
-
+proxies:
+  - name: vmess_ws_https_Isee_VVIP
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 835b88ef-7f72-4479-8114-24244ef0746d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.ikd.sing-box.id
+    network: ws
+    ws-opts:
+      path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: ava.game.naver.com.ikd.sing-box.id
+    udp: true
+  - name: VLESS ID
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: ed272330-ec81-4092-a585-a4dd8dacb003
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /vless=id
+      headers:
+        Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    udp: true
+  - name: (ID) PT Herza Digital Indonesia 🇮🇩
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 68968be6-1697-4cad-a0d8-9fa37fdc9b76
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /id2
+      headers:
+        Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    udp: true
