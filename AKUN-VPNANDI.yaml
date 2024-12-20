@@ -15,3 +15,18 @@ proxies:
       headers:
         Host: ikd.sing-box.id
     udp: true
+  - name: (ID) PT Herza Digital Indonesia 🇮🇩
+    server: 104.17.70.206
+    port: 443
+    type: vless
+    uuid: 68968be6-1697-4cad-a0d8-9fa37fdc9b76
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mmx.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /id2
+      headers:
+        Host: mmx.vpnoir9r.us.kg
+    udp: true
