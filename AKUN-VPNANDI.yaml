@@ -1,6 +1,6 @@
 proxies:
   - name: vmess_ws_https_Isee_VVIP
-    server: quiz.int.vidio.com
+    server: 104.17.70.206
     port: 443
     type: vmess
     uuid: 835b88ef-7f72-4479-8114-24244ef0746d
@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.int.vidio.com.ikd.sing-box.id
+    servername: ikd-cdn.apasih.id
     network: ws
     ws-opts:
       path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: quiz.int.vidio.com.ikd.sing-box.id
+        Host: ikd-cdn.apasih.id
     udp: true
   - name: (ID) PT Herza Digital Indonesia 🇮🇩
     server: quiz.int.vidio.com
