@@ -30,34 +30,34 @@ proxies:
         Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
     udp: true
   - name: ind2-pt.Telkom
-    server: ind2.tingkeh.us.kg
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ind2.tingkeh.us.kg
+    servername: ava.game.naver.com.ind2.tingkeh.us.kg
     network: ws
     ws-opts:
       path: /vlesscf
       headers:
-        Host: ind2.tingkeh.us.kg
+        Host: ava.game.naver.com.ind2.tingkeh.us.kg
     udp: true
   - name: ind6-pt.pusatMedia
-    server: ind6.tingkeh.us.kg
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ind6.tingkeh.us.kg
+    servername: ava.game.naver.com.ind6.tingkeh.us.kg
     network: ws
     ws-opts:
       path: /vlesscf
       headers:
-        Host: ind6.tingkeh.us.kg
+        Host: ava.game.naver.com.ind6.tingkeh.us.kg
     udp: true
   - name: (ID) PT Herza opok
     server: 104.17.70.206
