@@ -1,5 +1,5 @@
 proxies:
-  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
+  - name: Cloud Teknologi Nusantara WS TLS [nzr]
     server: ava.game.naver.com.nzr.narxz.biz.id
     port: 443
     type: vless
