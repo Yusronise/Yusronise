@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.ikd.sing-box.baby
+    servername: ava.game.naver.com.ikd.sing-box.cv
     network: ws
     ws-opts:
       path: /isee/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: ava.game.naver.com.ikd.sing-box.baby
+        Host: ava.game.naver.com.ikd.sing-box.cv
     udp: true
   - name: VLESS ID
     server: ava.game.naver.com
