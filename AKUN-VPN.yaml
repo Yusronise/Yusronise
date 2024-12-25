@@ -1,19 +1,4 @@
 proxies:
-  - name: id2-akamai
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 88b1a1d1-27ab-4e15-b173-8115565efe29
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.id2.free-account.us.kg
-    network: ws
-    ws-opts:
-      path: /vlesscf
-      headers:
-        Host: ava.game.naver.com.id2.free-account.us.kg
-    udp: true
   - name: VLESS ID
     server: ava.game.naver.com
     port: 443
@@ -44,20 +29,35 @@ proxies:
       headers:
         Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
     udp: true
-  - name: vless_ws_ikada.sing-box.id_VVIP
-    server: ava.game.naver.com
+  - name: ind2-pt.Telkom
+    server: ind2.tingkeh.us.kg
     port: 443
     type: vless
-    uuid: 21d1db2f-66ef-4ee0-b9ec-b58663eb1401
+    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.ikada.sing-box.id
+    servername: ind2.tingkeh.us.kg
     network: ws
     ws-opts:
-      path: /buy-vless-ws-pm-telegram-at-synricha
+      path: /vlesscf
       headers:
-        Host: ava.game.naver.com.ikada.sing-box.id
+        Host: ind2.tingkeh.us.kg
+    udp: true
+  - name: ind6-pt.pusatMedia
+    server: ind6.tingkeh.us.kg
+    port: 443
+    type: vless
+    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ind6.tingkeh.us.kg
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: ind6.tingkeh.us.kg
     udp: true
   - name: (ID) PT Herza opok
     server: 104.17.70.206
