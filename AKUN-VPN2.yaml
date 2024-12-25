@@ -8,10 +8,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ikd-cdn.apasih.id
+    servername: ikd.sing-box.icu
     network: ws
     ws-opts:
-      path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
+      path: /Isee/incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
         Host: ikd-cdn.apasih.id
     udp: true
