@@ -1,6 +1,6 @@
 proxies:
   - name: vmess_ws_https_Isee_VVIP
-    server: 104.17.70.206
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: 835b88ef-7f72-4479-8114-24244ef0746d
@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ikd.sing-box.icu
+    servername: ava.game.naver.com.ikd.sing-box.icu
     network: ws
     ws-opts:
       path: /Isee/incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: ikd.sing-box.icu
+        Host: ava.game.naver.com.ikd.sing-box.icu
     udp: true
   - name: VLESS ID
     server: ava.game.naver.com
