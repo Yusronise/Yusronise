@@ -13,7 +13,7 @@ proxies:
     ws-opts:
       path: /Isee/incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: ikd-cdn.apasih.id
+        Host: ikd.sing-box.icu
     udp: true
   - name: VLESS ID
     server: ava.game.naver.com
