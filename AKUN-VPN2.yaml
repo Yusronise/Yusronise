@@ -45,7 +45,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
     udp: true
-  - name: (ID) PT Herza Digital Indonesia 🇮🇩
+  - name: (ID) PT Herza Digital Indonesia 
     server: ava.game.naver.com
     port: 443
     type: vless
@@ -60,7 +60,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
     udp: true
-  - name: vmess_ws_https_Isee_VVIP
+  - name: vmess_ws_https_Isee_VVIP andi
     server: 104.17.70.206
     port: 443
     type: vmess
@@ -76,7 +76,7 @@ proxies:
       headers:
         Host: ikd-cdn.apasih.id
     udp: true
-  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
+  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS andi
     server: 104.17.70.206
     port: 443
     type: vless
