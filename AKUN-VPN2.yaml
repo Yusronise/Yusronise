@@ -16,14 +16,14 @@ proxies:
         Host: ava.game.naver.com.ikd.sing-box.cyou
     udp: true
   - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
-    server: ava.game.naver.com.nzr.narxz.biz.id
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver com.nzr.narxz.biz.id
+    servername: ava.game.naver.com.nzr.narxz.biz.id
     network: ws
     ws-opts:
       path: /103.133.223.51-2096
