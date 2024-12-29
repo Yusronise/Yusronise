@@ -29,3 +29,33 @@ proxies:
       headers:
         Host: ava.game.naver.com.masbodong.us.kg
     udp: true
+  - name: (ID) Google LLC ðŸ‡®ðŸ‡©
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 9781c1c1-84ac-49bb-b3df-63d2ba3e7f2e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /id-gcp
+      headers:
+        Host: ava.game.naver.com.masbodong.us.kg
+    udp: true
+  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /id-cloud
+      headers:
+        Host: ava.game.naver.com.masbodong.us.kg
+    udp: true
