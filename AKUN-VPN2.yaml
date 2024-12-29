@@ -1,19 +1,4 @@
 proxies:
-  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
-    server: ava.game.naver.com.nzr.narxz.biz.id
-    port: 443
-    type: vless
-    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver com.nzr.narxz.biz.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: ava.game.naver.com.nzr.narxz.biz.id
-    udp: true
   - name: vmess_ws_https_Isee_VVIP
     server: ava.game.naver.com
     port: 443
@@ -30,35 +15,50 @@ proxies:
       headers:
         Host: ava.game.naver.com.ikd.sing-box.cyou
     udp: true
-  - name: VLESS ID
-    server: ava.game.naver.com
+  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
+    server: ava.game.naver.com.nzr.narxz.biz.id
     port: 443
     type: vless
-    uuid: ed272330-ec81-4092-a585-a4dd8dacb003
+    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    servername: ava.game.naver com.nzr.narxz.biz.id
     network: ws
     ws-opts:
-      path: /vless=id
+      path: /103.133.223.51-2096
       headers:
-        Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
+        Host: ava.game.naver.com.nzr.narxz.biz.id
     udp: true
-  - name: (ID) PT Herza Digital Indonesia 
+  - name: (ID) Google LLC ðŸ‡®ðŸ‡©
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 68968be6-1697-4cad-a0d8-9fa37fdc9b76
+    uuid: 9781c1c1-84ac-49bb-b3df-63d2ba3e7f2e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.mmx.vpnoir9r.us.kg
+    servername: ava.game.naver.com.masbodong.us.kg
     network: ws
     ws-opts:
-      path: /id2
+      path: /id-gcp
       headers:
-        Host: ava.game.naver.com.mmx.vpnoir9r.us.kg
+        Host: ava.game.naver.com.masbodong.us.kg
+    udp: true
+  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /id-cloud
+      headers:
+        Host: ava.game.naver.com.masbodong.us.kg
     udp: true
   - name: vmess_ws_https_Isee_VVIP andi
     server: 104.17.70.206
