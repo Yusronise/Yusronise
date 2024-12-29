@@ -7,7 +7,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver com.nzr.narxz.biz.id
+    servername: ava.game.naver.com.nzr.narxz.biz.id
     network: ws
     ws-opts:
       path: /103.133.223.51-2096
