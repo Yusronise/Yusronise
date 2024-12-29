@@ -14,3 +14,18 @@ proxies:
       headers:
         Host: ava.game.naver.com.nzr.narxz.biz.id
     udp: true
+  - name: "(ID) Amazon.com, Inc"
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: afd8e25c-5794-4bc9-92c1-e57358412673
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: "/id-amz"
+      headers:
+        Host: ava.game.naver.com.masbodong.us.kg
+    udp: true
