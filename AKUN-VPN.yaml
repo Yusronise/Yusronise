@@ -14,6 +14,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.nzr.narxz.biz.id
     udp: true
+  - name: Random ISP
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 06b7ca60-179c-4316-99e3-74aa2904344c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /random
+      headers:
+        Host: ava.game.naver.com.masbodong.us.kg
+    udp: true
   - name: "(ID) Amazon.com, Inc"
     server: ava.game.naver.com
     port: 443
