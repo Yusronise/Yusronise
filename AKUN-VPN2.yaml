@@ -121,7 +121,7 @@ proxies:
       headers:
         Host: quiz.int.vidio.com.masbodong.us.kg
     udp: true
-  - name: Random ISP
+  - name: Random ISP andi
     server: quiz.int.vidio.com
     port: 443
     type: vless
