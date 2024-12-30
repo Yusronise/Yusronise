@@ -107,17 +107,17 @@ proxies:
         Host: nzr.narxz.biz.id
     udp: true
   - name: (ID) Amazon.com, Inc 🇮🇩
-    server: onelink.seabank.co.id
+    server: quiz.int.vidio.com
     port: 443
     type: vless
     uuid: afd8e25c-5794-4bc9-92c1-e57358412673
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: masbodong.us.kg
+    servername: quiz.int.vidio.com.masbodong.us.kg
     network: ws
     ws-opts:
       path: /id-amz
       headers:
-        Host: masbodong.us.kg
+        Host: quiz.int.vidio.com.masbodong.us.kg
     udp: true
