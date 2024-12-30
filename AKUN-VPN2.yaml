@@ -76,48 +76,33 @@ proxies:
       headers:
         Host: ikd-cdn.apasih.id
     udp: true
-  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS andi
-    server: 104.17.70.206
-    port: 443
-    type: vless
-    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: nzr.narxz.biz.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: nzr.narxz.biz.id
-    udp: true
   - name: (ID) Amazon.com, Inc 🇮🇩
-    server: quiz.int.vidio.com
+    server: 104.17.70.206
     port: 443
     type: vless
     uuid: afd8e25c-5794-4bc9-92c1-e57358412673
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.int.vidio.com.masbodong.us.kg
+    servername: masbodong.us.kg
     network: ws
     ws-opts:
       path: /id-amz
       headers:
-        Host: quiz.int.vidio.com.masbodong.us.kg
+        Host: masbodong.us.kg
     udp: true
   - name: Random ISP andi
-    server: quiz.int.vidio.com
+    server: 104.17.70.206
     port: 443
     type: vless
     uuid: 06b7ca60-179c-4316-99e3-74aa2904344c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.int.vidio.com.masbodong.us.kg
+    servername: masbodong.us.kg
     network: ws
     ws-opts:
       path: /random
       headers:
-        Host: quiz.int.vidio.com.masbodong.us.kg
+        Host: masbodong.us.kg
     udp: true
