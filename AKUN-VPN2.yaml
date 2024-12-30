@@ -121,3 +121,18 @@ proxies:
       headers:
         Host: quiz.int.vidio.com.masbodong.us.kg
     udp: true
+  - name: Random ISP
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 06b7ca60-179c-4316-99e3-74aa2904344c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /random
+      headers:
+        Host: quiz.int.vidio.com.masbodong.us.kg
+    udp: true
