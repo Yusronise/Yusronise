@@ -1,5 +1,5 @@
 proxies:
-  - name: "(ID) Amazon.com, Inc"
+  - name: (ID) Amazon.com, Inc
     server: support.zoom.us
     port: 443
     type: vless
@@ -10,7 +10,7 @@ proxies:
     servername: support.zoom.us.masbodong.us.kg
     network: ws
     ws-opts:
-      path: "/id-amz"
+      path: /id-amz
       headers:
         Host: support.zoom.us.masbodong.us.kg
     udp: true
