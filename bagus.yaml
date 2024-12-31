@@ -1,19 +1,4 @@
 proxies:
-  - name: Cloud Teknologi Nusantara WS TLS [nzr]
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.nzr.narxz.biz.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: support.zoom.us.nzr.narxz.biz.id
-    udp: true
   - name: "(ID) Amazon.com, Inc"
     server: support.zoom.us
     port: 443
@@ -26,36 +11,6 @@ proxies:
     network: ws
     ws-opts:
       path: "/id-amz"
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: (ID) Shenzhen Tencent ðŸ‡®ðŸ‡©
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 5adab5d9-641f-4e2c-b79a-317a2c0e0f9c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-tenc
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: (MY) Evoxt Enterprise ðŸ‡²ðŸ‡¾
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 1be730c0-071b-4af0-ad20-f466ad5bc990
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /my-evoxt
       headers:
         Host: support.zoom.us.masbodong.us.kg
     udp: true
@@ -73,4 +28,34 @@ proxies:
       path: /random
       headers:
         Host: support.zoom.us.masbodong.us.kg
+    udp: true
+  - name: sg12-ovh
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.sg12.tingkehh.us.kg
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: ava.game.naver.com.sg12.tingkehh.us.kg
+    udp: true
+  - name: ind6-pt.pusatMedia
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.ind6.tingkeh.us.kg
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: ava.game.naver.com.ind6.tingkeh.us.kg
     udp: true
