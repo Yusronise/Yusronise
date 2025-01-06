@@ -69,40 +69,55 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ikd-cdn.apasih.id
+    servername: ikd.sing-box.cyou
     network: ws
     ws-opts:
       path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: ikd-cdn.apasih.id
+        Host: ikd.sing-box.cyou
     udp: true
-  - name: (ID) Amazon.com, Inc 🇮🇩
-    server: 104.17.70.206
+  - name: ID Cloud Teknologi New
+    server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: afd8e25c-5794-4bc9-92c1-e57358412673
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: masbodong.us.kg
+    servername: ava.game.naver.com.sub.gpj.us.kg
     network: ws
     ws-opts:
-      path: /id-amz
+      path: /103.133.223.50-2096
       headers:
-        Host: masbodong.us.kg
+        Host: ava.game.naver.com.sub.gpj.us.kg
     udp: true
-  - name: Random ISP andi
-    server: 104.17.70.206
+  - name: ID Tencent cloud new
+    server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 06b7ca60-179c-4316-99e3-74aa2904344c
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: masbodong.us.kg
+    servername: ava.game.naver.com.sub.gpj.us.kg
     network: ws
     ws-opts:
-      path: /random
+      path: /43.133.145.156-53136
       headers:
-        Host: masbodong.us.kg
+        Host: ava.game.naver.com.sub.gpj.us.kg
+    udp: true
+  - name: ID Akamai Connected NEW
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.sub.gpj.us.kg
+    network: ws
+    ws-opts:
+      path: /172.232.239.249-587
+      headers:
+        Host: ava.game.naver.com.sub.gpj.us.kg
     udp: true
