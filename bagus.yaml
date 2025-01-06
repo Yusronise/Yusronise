@@ -89,3 +89,48 @@ proxies:
       headers:
         Host: support.zoom.us.masbodong.us.kg
     udp: true
+  - name: ID Cloud Teknologi New
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.sub.gpj.us.kg
+    network: ws
+    ws-opts:
+      path: /103.133.223.50-2096
+      headers:
+        Host: support.zoom.us.sub.gpj.us.kg
+    udp: true
+  - name: ID Tencent cloud new
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.sub.gpj.us.kg
+    network: ws
+    ws-opts:
+      path: /43.133.145.156-53136
+      headers:
+        Host: support.zoom.us.sub.gpj.us.kg
+    udp: true
+  - name: ID Akamai Connected NEW
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.sub.gpj.us.kg
+    network: ws
+    ws-opts:
+      path: /172.232.239.249-587
+      headers:
+        Host: support.zoom.us.sub.gpj.us.kg
+    udp: true
