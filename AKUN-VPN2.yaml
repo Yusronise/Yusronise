@@ -61,7 +61,7 @@ proxies:
         Host: ava.game.naver.com.masbodong.us.kg
     udp: true
   - name: vmess_ws_https_Isee_VVIP andi
-    server: 104.17.70.206
+    server: quiz.staging.vidio.com
     port: 443
     type: vmess
     uuid: 835b88ef-7f72-4479-8114-24244ef0746d
