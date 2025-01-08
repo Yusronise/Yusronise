@@ -30,36 +30,6 @@ proxies:
       headers:
         Host: ava.game.naver.com.masbodong.us.kg
     udp: true
-  - name: (ID) Google LLC ðŸ‡®ðŸ‡©
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 9781c1c1-84ac-49bb-b3df-63d2ba3e7f2e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-gcp
-      headers:
-        Host: ava.game.naver.com.masbodong.us.kg
-    udp: true
-  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-cloud
-      headers:
-        Host: ava.game.naver.com.masbodong.us.kg
-    udp: true
   - name: vmess_ws_https_Isee_VVIP andi
     server: quiz.staging.vidio.com
     port: 443
@@ -75,49 +45,4 @@ proxies:
       path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
       headers:
         Host: ikd.sing-box.cyou
-    udp: true
-  - name: ID Cloud Teknologi New
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /103.133.223.50-2096
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
-    udp: true
-  - name: ID Tencent cloud new
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /43.133.145.156-53136
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
-    udp: true
-  - name: ID Akamai Connected NEW
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /172.232.239.249-587
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
     udp: true
