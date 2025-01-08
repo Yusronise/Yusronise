@@ -49,16 +49,16 @@ proxies:
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
+    uuid: putrivpn-free-account
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.ind10.tingkehh.us.kg
+    servername: ava.game.naver.com.wildcard.tiingkeh.us.kg
     network: ws
     ws-opts:
-      path: /vlesscf
+      path: /vl=47.236.60.3=443
       headers:
-        Host: ava.game.naver.com.ind10.tingkehh.us.kg
+        Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
   - name: Random ISP
     server: ava.game.naver.com
