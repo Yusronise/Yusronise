@@ -45,20 +45,20 @@ proxies:
       headers:
         Host: ava.game.naver.com.cyantika.us.kg
     udp: true
-  - name: workerrrr
+  - name: ind10-alibaba
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.mencret.ngising.filegear-sg.me
+    servername: ava.game.naver.com.ind10.tingkehh.us.kg
     network: ws
     ws-opts:
-      path: /lhxt.xiaomi.win/?ed
+      path: /vlesscf
       headers:
-        Host: ava.game.naver.com.mencret.ngising.filegear-sg.me
+        Host: ava.game.naver.com.ind10.tingkehh.us.kg
     udp: true
   - name: Random ISP
     server: ava.game.naver.com
