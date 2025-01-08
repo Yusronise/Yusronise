@@ -16,34 +16,49 @@ proxies:
         Host: ava.game.naver.com.ikd.sing-box.cyou
     udp: true
   - name: (SG) Cloudflare Warp🇸🇬
-    server: ava.game.naver.com
+    server: quiz.staging.vidio.com
     port: 443
     type: vless
     uuid: 4a0eabc5-e763-409f-8075-25fb68624537
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+    servername: falling-snow.ilhamsyahdani06.workers.dev
     network: ws
     ws-opts:
       path: /vl=138.2.74.219=28616
       headers:
-        Host: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+        Host: falling-snow.ilhamsyahdani06.workers.dev
     udp: true
-  - name: (ID) PT Deneva🇮🇩
+  - name: testo1
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: a02879be-726d-4db3-ad31-709819797dcf
+    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+    servername: ava.game.naver.com.cyantika.us.kg
     network: ws
     ws-opts:
-      path: /vl=8.218.107.145=31166
+      path: /vl=138.2.74.219=28616
       headers:
-        Host: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+        Host: ava.game.naver.com.cyantika.us.kg
+    udp: true
+  - name: workerrrr
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.mencret.ngising.filegear-sg.me
+    network: ws
+    ws-opts:
+      path: /lhxt.xiaomi.win/?ed
+      headers:
+        Host: ava.game.naver.com.mencret.ngising.filegear-sg.me
     udp: true
   - name: Random ISP
     server: ava.game.naver.com
