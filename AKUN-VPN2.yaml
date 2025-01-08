@@ -60,6 +60,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
+  - name: 7 🇮🇩 HerzaID WS TLS [wilo]
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.wilo.luckystup-id.xyz
+    network: ws
+    ws-opts:
+      path: /103.168.146.169-20132
+      headers:
+        Host: ava.game.naver.com.wilo.luckystup-id.xyz
+    udp: true
   - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
     server: ava.game.naver.com
     port: 443
