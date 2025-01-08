@@ -60,6 +60,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
+  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: ab814528-5618-439b-b902-09681629a533
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.notx.stupx2.my.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.51-2096
+      headers:
+        Host: ava.game.naver.com.notx.stupx2.my.id
+    udp: true
   - name: Random ISP
     server: ava.game.naver.com
     port: 443
