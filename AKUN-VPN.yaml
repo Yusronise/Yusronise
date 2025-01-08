@@ -1,18 +1,18 @@
 proxies:
-  - name: Cloud Teknologi Nusantara WS TLS [nzr]
+  - name: testo1
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
+    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.nzr.narxz.biz.id
+    servername: ava.game.naver.com.cyantika.us.kg
     network: ws
     ws-opts:
-      path: /103.133.223.51-2096
+      path: /vl=138.2.74.219=28616
       headers:
-        Host: ava.game.naver.com.nzr.narxz.biz.id
+        Host: ava.game.naver.com.cyantika.us.kg
     udp: true
   - name: Random ISP
     server: ava.game.naver.com
@@ -43,79 +43,4 @@ proxies:
       path: "/id-amz"
       headers:
         Host: ava.game.naver.com.masbodong.us.kg
-    udp: true
-  - name: (ID) Google LLC ðŸ‡®ðŸ‡©
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 9781c1c1-84ac-49bb-b3df-63d2ba3e7f2e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-gcp
-      headers:
-        Host: ava.game.naver.com.masbodong.us.kg
-    udp: true
-  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-cloud
-      headers:
-        Host: ava.game.naver.com.masbodong.us.kg
-    udp: true
-  - name: ID Cloud Teknologi New
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /103.133.223.50-2096
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
-    udp: true
-  - name: ID Tencent cloud new
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /43.133.145.156-53136
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
-    udp: true
-  - name: ID Akamai Connected NEW
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /172.232.239.249-587
-      headers:
-        Host: ava.game.naver.com.sub.gpj.us.kg
     udp: true
