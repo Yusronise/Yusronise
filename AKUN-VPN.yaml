@@ -29,6 +29,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.masbodong.us.kg
     udp: true
+  - name: ind10-alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: putrivpn-free-account
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.wildcard.tiingkeh.us.kg
+    network: ws
+    ws-opts:
+      path: /vl=47.236.60.3=443
+      headers:
+        Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
+    udp: true
   - name: "(ID) Amazon.com, Inc"
     server: ava.game.naver.com
     port: 443
