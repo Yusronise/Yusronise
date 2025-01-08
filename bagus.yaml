@@ -29,50 +29,50 @@ proxies:
       headers:
         Host: support.zoom.us.masbodong.us.kg
     udp: true
-  - name: sg12-ovh
+  - name: testo1
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
+    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.sg12.tingkehh.us.kg
+    servername: support.zoom.us.cyantika.us.kg
     network: ws
     ws-opts:
-      path: /vlesscf
+      path: /vl=138.2.74.219=28616
       headers:
-        Host: support.zoom.us.sg12.tingkehh.us.kg
+        Host: support.zoom.us.cyantika.us.kg
     udp: true
-  - name: ind6-pt.pusatMedia
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: a2268dff-6dfa-4fb8-8a4c-91011b9034b9
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.ind6.tingkeh.us.kg
-    network: ws
-    ws-opts:
-      path: /vlesscf
-      headers:
-        Host: ava.game.naver.com.ind6.tingkeh.us.kg
-    udp: true
-  - name: (ID) Google LLC ðŸ‡®ðŸ‡©
+  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: 9781c1c1-84ac-49bb-b3df-63d2ba3e7f2e
+    uuid: ab814528-5618-439b-b902-09681629a533
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
+    servername: support.zoom.us.notx.stupx2.my.id
     network: ws
     ws-opts:
-      path: /id-gcp
+      path: /103.133.223.51-2096
       headers:
-        Host: support.zoom.us.masbodong.us.kg
+        Host: support.zoom.us.notx.stupx2.my.id
+    udp: true
+  - name: 7 🇮🇩 HerzaID WS TLS [wilo]
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.wilo.luckystup-id.xyz
+    network: ws
+    ws-opts:
+      path: /103.168.146.169-20132
+      headers:
+        Host: support.zoom.us.wilo.luckystup-id.xyz
     udp: true
   - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
     server: support.zoom.us
@@ -88,49 +88,4 @@ proxies:
       path: /id-cloud
       headers:
         Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: ID Cloud Teknologi New
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /103.133.223.50-2096
-      headers:
-        Host: support.zoom.us.sub.gpj.us.kg
-    udp: true
-  - name: ID Tencent cloud new
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /43.133.145.156-53136
-      headers:
-        Host: support.zoom.us.sub.gpj.us.kg
-    udp: true
-  - name: ID Akamai Connected NEW
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e5262ea9-bdf4-4b2a-a670-941a26934ef4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sub.gpj.us.kg
-    network: ws
-    ws-opts:
-      path: /172.232.239.249-587
-      headers:
-        Host: support.zoom.us.sub.gpj.us.kg
     udp: true
