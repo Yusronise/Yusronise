@@ -30,6 +30,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
     udp: true
+  - name: (ID) PT Deneva🇮🇩
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: a02879be-726d-4db3-ad31-709819797dcf
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+    network: ws
+    ws-opts:
+      path: /vl=8.218.107.145=31166
+      headers:
+        Host: ava.game.naver.com.falling-snow.ilhamsyahdani06.workers.dev
+    udp: true
   - name: Random ISP
     server: ava.game.naver.com
     port: 443
