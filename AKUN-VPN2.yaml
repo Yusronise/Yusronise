@@ -15,21 +15,6 @@ proxies:
       headers:
         Host: ava.game.naver.com.ikd.sing-box.cyou
     udp: true
-  - name: (SG) Cloudflare Warp🇸🇬
-    server: quiz.staging.vidio.com
-    port: 443
-    type: vless
-    uuid: 4a0eabc5-e763-409f-8075-25fb68624537
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: falling-snow.ilhamsyahdani06.workers.dev
-    network: ws
-    ws-opts:
-      path: /vl=138.2.74.219=28616
-      headers:
-        Host: falling-snow.ilhamsyahdani06.workers.dev
-    udp: true
   - name: testo1
     server: ava.game.naver.com
     port: 443
