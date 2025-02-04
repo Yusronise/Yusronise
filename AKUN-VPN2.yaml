@@ -1,20 +1,4 @@
 proxies:
-  - name: vmess_ws_https_Isee_VVIP
-    server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 835b88ef-7f72-4479-8114-24244ef0746d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.ikd.sing-box.cyou
-    network: ws
-    ws-opts:
-      path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: ava.game.naver.com.ikd.sing-box.cyou
-    udp: true
   - name: testo1
     server: zaintest.vuclip.com
     port: 443
@@ -90,19 +74,18 @@ proxies:
       headers:
         Host: zaintest.vuclip.com.masbodong.us.kg
     udp: true
-  - name: vmess_ws_https_Isee_VVIP andi
-    server: zaintest.vuclip.com
+  - name: "(ID) Amazon.com, Inc"
+    server: ava.game.naver.com
     port: 443
-    type: vmess
-    uuid: 835b88ef-7f72-4479-8114-24244ef0746d
-    alterId: 0
+    type: vless
+    uuid: afd8e25c-5794-4bc9-92c1-e57358412673
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zaintest.vuclip.com.ikd.sing-box.cyou
+    servername: ava.game.naver.com.masbodong.us.kg
     network: ws
     ws-opts:
-      path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
+      path: "/id-amz"
       headers:
-        Host: zaintest.vuclip.com
+        Host: ava.game.naver.com.masbodong.us.kg
     udp: true
