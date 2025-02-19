@@ -1,91 +1,106 @@
 proxies:
-  - name: testo1
-    server: zaintest.vuclip.com
-    port: 443
-    type: vless
-    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.com.cyantika.us.kg
-    network: ws
-    ws-opts:
-      path: /vl=138.2.74.219=28616
-      headers:
-        Host: zaintest.vuclip.com.cyantika.us.kg
-    udp: true
-  - name: ind10-alibaba
-    server: zaintest.vuclip.com
-    port: 443
-    type: vless
-    uuid: putrivpn-free-account
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.wildcard.tiingkeh.us.kg
-    network: ws
-    ws-opts:
-      path: /vl=47.236.60.3=443
-      headers:
-        Host: zaintest.vuclip.com.wildcard.tiingkeh.us.kg
-    udp: true
-  - name: 7 🇮🇩 HerzaID WS TLS [wilo]
-    server: zaintest.vuclip.com
-    port: 443
-    type: vless
-    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.wilo.luckystup-id.xyz
-    network: ws
-    ws-opts:
-      path: /103.168.146.169-20132
-      headers:
-        Host: zaintest.vuclip.com.wilo.luckystup-id.xyz
-    udp: true
-  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
-    server: zaintest.vuclip.com
-    port: 443
-    type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.notx.stupx2.my.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: zaintest.vuclip.com.notx.stupx2.my.id
-    udp: true
-  - name: Random ISP
-    server: zaintest.vuclip.com
-    port: 443
-    type: vless
-    uuid: 06b7ca60-179c-4316-99e3-74aa2904344c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /random
-      headers:
-        Host: zaintest.vuclip.com.masbodong.us.kg
-    udp: true
-  - name: "(ID) Amazon.com, Inc"
-    server: ava.game.naver.com
+  - name: (ID) Amazon.com, Inc
+    server: support.zoom.us
     port: 443
     type: vless
     uuid: afd8e25c-5794-4bc9-92c1-e57358412673
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.masbodong.us.kg
+    servername: support.zoom.us.masbodong.us.kg
     network: ws
     ws-opts:
-      path: "/id-amz"
+      path: /id-amz
       headers:
-        Host: ava.game.naver.com.masbodong.us.kg
+        Host: support.zoom.us.masbodong.us.kg
+    udp: true
+  - name: Random ISP
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: e1492fa1-366f-4fc7-8444-27e4d017de01
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /random
+      headers:
+        Host: support.zoom.us.masbodong.us.kg
+    udp: true
+  - name: testo1
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.cyantika.us.kg
+    network: ws
+    ws-opts:
+      path: /vl=138.2.74.219=28616
+      headers:
+        Host: support.zoom.us.cyantika.us.kg
+    udp: true
+  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: ab814528-5618-439b-b902-09681629a533
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.notx.stupx2.my.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.51-2096
+      headers:
+        Host: support.zoom.us.notx.stupx2.my.id
+    udp: true
+  - name: 7 🇮🇩 HerzaID WS TLS [wilo]
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.wilo.luckystup-id.xyz
+    network: ws
+    ws-opts:
+      path: /103.168.146.169-20132
+      headers:
+        Host: support.zoom.us.wilo.luckystup-id.xyz
+    udp: true
+  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.masbodong.us.kg
+    network: ws
+    ws-opts:
+      path: /id-cloud
+      headers:
+        Host: support.zoom.us.masbodong.us.kg
+    udp: true
+  - name: ind10-alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: putrivpn-free-account
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.wildcard.tiingkeh.us.kg
+    network: ws
+    ws-opts:
+      path: /vl=47.236.60.3=443
+      headers:
+        Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
