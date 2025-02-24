@@ -104,3 +104,18 @@ proxies:
       headers:
         Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
+  - name: (SG) Digitalocean, LLC 🇸🇬
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: ecabba24-fccc-4940-b4a3-c4d7ebec02b5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-do
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
