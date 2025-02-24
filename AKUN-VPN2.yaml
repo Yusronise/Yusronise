@@ -1,19 +1,4 @@
 proxies:
-  - name: (ID) Amazon.com, Inc
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: afd8e25c-5794-4bc9-92c1-e57358412673
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-amz
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
   - name: Random ISP
     server: support.zoom.us
     port: 443
