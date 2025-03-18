@@ -104,3 +104,48 @@ proxies:
       headers:
         Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
+  - name: vidio 1
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: ab814528-5618-439b-b902-09681629a533
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.notx.stupx2.my.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.51-2096
+      headers:
+        Host: quiz.int.vidio.com.notx.stupx2.my.id
+    udp: true
+  - name: vidio 2
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.wilo.luckystup-id.xyz
+    network: ws
+    ws-opts:
+      path: /103.168.146.169-20132
+      headers:
+        Host: quiz.int.vidio.com.wilo.luckystup-id.xyz
+    udp: true
+  - name: vidio 3
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: ecabba24-fccc-4940-b4a3-c4d7ebec02b5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-do
+      headers:
+        Host: quiz.int.vidio.com.violetvpn.biz.id
+    udp: true
