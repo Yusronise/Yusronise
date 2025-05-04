@@ -1,4 +1,17 @@
 proxies:
+  - name: (ID) Akamai Connected Cloud ZOOM
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: aaaaaaa1-bbbb-4ccc-addd-eeeeeeeeeee1
+    skip-cert-verify: true
+    sni: support.zoom.us.b0kepindo.dpdns.org
+    network: ws
+    ws-opts:
+      path: /172.232.237.112=2053
+      headers:
+        Host: support.zoom.us.b0kepindo.dpdns.org
+    udp: true
   - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
     server: support.zoom.us
     port: 443
