@@ -27,6 +27,21 @@ proxies:
       headers:
         Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
     udp: true
+  - name: (SG) Alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.free.vpn-wuss.BIZ.id
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/8.219.58.164-57373
+      headers:
+        Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
+    udp: true
   - name: 7 🇮🇩 HerzaID WS TLS [wilo]
     server: support.zoom.us
     port: 443
