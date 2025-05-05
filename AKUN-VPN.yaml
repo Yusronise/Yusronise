@@ -27,36 +27,6 @@ proxies:
       headers:
         Host: support.zoom.us.masbodong.us.kg
     udp: true
-  - name: Random ISP
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e1492fa1-366f-4fc7-8444-27e4d017de01
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /random
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: testo1
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 73999294-2f90-4bf2-b9a7-651dde4e362f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.cyantika.us.kg
-    network: ws
-    ws-opts:
-      path: /vl=138.2.74.219=28616
-      headers:
-        Host: support.zoom.us.cyantika.us.kg
-    udp: true
   - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
     server: support.zoom.us
     port: 443
@@ -101,21 +71,6 @@ proxies:
       path: /id-cloud
       headers:
         Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: ind10-alibaba
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: putrivpn-free-account
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.wildcard.tiingkeh.us.kg
-    network: ws
-    ws-opts:
-      path: /vl=47.236.60.3=443
-      headers:
-        Host: ava.game.naver.com.wildcard.tiingkeh.us.kg
     udp: true
   - name: vidio 1
     server: quiz.int.vidio.com
