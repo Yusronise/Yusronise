@@ -12,36 +12,6 @@ proxies:
       headers:
         Host: api.instagram.com.b0kepindo.dpdns.org
     udp: true
-  - name: (ID) Amazon.com, Inc
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: afd8e25c-5794-4bc9-92c1-e57358412673
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-amz
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.notx.stupx2.my.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: support.zoom.us.notx.stupx2.my.id
-    udp: true
   - name: 7 🇮🇩 HerzaID WS TLS [wilo]
     server: support.zoom.us
     port: 443
@@ -57,36 +27,6 @@ proxies:
       headers:
         Host: support.zoom.us.wilo.luckystup-id.xyz
     udp: true
-  - name: (ID) Pt Cloud Teknologi ðŸ‡®ðŸ‡©
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 3ef92216-78fc-4709-9318-8d8134e41a85
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.masbodong.us.kg
-    network: ws
-    ws-opts:
-      path: /id-cloud
-      headers:
-        Host: support.zoom.us.masbodong.us.kg
-    udp: true
-  - name: vidio 1
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: quiz.int.vidio.com.notx.stupx2.my.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: quiz.int.vidio.com.notx.stupx2.my.id
-    udp: true
   - name: vidio 2
     server: quiz.int.vidio.com
     port: 443
@@ -101,19 +41,4 @@ proxies:
       path: /103.168.146.169-20132
       headers:
         Host: quiz.int.vidio.com.wilo.luckystup-id.xyz
-    udp: true
-  - name: vidio 3
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: ecabba24-fccc-4940-b4a3-c4d7ebec02b5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: quiz.int.vidio.com.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-do
-      headers:
-        Host: quiz.int.vidio.com.violetvpn.biz.id
     udp: true
