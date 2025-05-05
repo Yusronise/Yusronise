@@ -1,4 +1,19 @@
 proxies:
+  - name: (ID) Akamai Connected ZOOM 2
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.free.vpn-wuss.BIZ.id
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/172.232.239.151-587
+      headers:
+        Host: support.zoom.us.free.vpn-wuss.BIZ.id
+    udp: true
   - name: (ID) Akamai Connected Cloud ZOOM
     server: support.zoom.us
     port: 443
