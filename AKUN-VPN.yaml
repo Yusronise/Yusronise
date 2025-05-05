@@ -12,6 +12,21 @@ proxies:
       headers:
         Host: api.instagram.com.b0kepindo.dpdns.org
     udp: true
+  - name: (ID) PT Telkom
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.free.vpn-wuss.BIZ.id
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/36.95.152.58-12137
+      headers:
+        Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
+    udp: true
   - name: 7 🇮🇩 HerzaID WS TLS [wilo]
     server: support.zoom.us
     port: 443
