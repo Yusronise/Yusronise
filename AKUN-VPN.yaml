@@ -1,4 +1,19 @@
 proxies:
+  - name: natanvpn
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 16d60685-eef6-4e9e-8284-95daa82cef6d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.6.round.web.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: ava.game.naver.com.6.round.web.id
+    udp: true
   - name: (ID) Amazon.com, Inc FB
     server: investor.fb.com
     port: 443
