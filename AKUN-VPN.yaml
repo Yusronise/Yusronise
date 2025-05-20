@@ -1,5 +1,20 @@
 proxies:
   - name: (SG) Digitalocean, LLC 🇸🇬
+    server: investor.fb.com
+    port: 443
+    type: vless
+    uuid: 9c27b519-2a48-4839-8c50-0f573bff4173
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: investor.fb.com.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-do
+      headers:
+        Host: investor.fb.com.violetvpn.biz.id
+    udp: true
+  - name: (SG) Digitalocean, LLC 🇸🇬
     server: zaintest.vuclip.com
     port: 443
     type: vless
