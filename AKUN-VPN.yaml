@@ -1,4 +1,19 @@
 proxies:
+  - name: (ID) Amazon.com, Inc FB
+    server: investor.fb.com
+    port: 443
+    type: vless
+    uuid: 48d3c7bb-16ab-43f5-9be3-6e0b19f7df2b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: investor.fb.com.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-amz
+      headers:
+        Host: investor.fb.com.violetvpn.biz.id
+    udp: true
   - name: (SG) Digitalocean, LLC FB
     server: investor.fb.com
     port: 443
