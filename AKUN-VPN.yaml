@@ -75,19 +75,19 @@ proxies:
         Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
     udp: true
   - name: 7 🇮🇩 HerzaID WS TLS [wilo]
-    server: support.zoom.us
+    server: investor.fb.com
     port: 443
     type: vless
     uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.wilo.luckystup-id.xyz
+    servername: investor.fb.com.wilo.luckystup-id.xyz
     network: ws
     ws-opts:
       path: /103.168.146.169-20132
       headers:
-        Host: support.zoom.us.wilo.luckystup-id.xyz
+        Host: investor.fb.com.wilo.luckystup-id.xyz
     udp: true
   - name: vidio 2
     server: quiz.int.vidio.com
