@@ -1,16 +1,18 @@
 proxies:
-  - name: (ID) Akamai Connected Cloud 🇮🇩
-    server: b0kepindo.dpdns.org
+  - name: (SG) Digitalocean, LLC 🇸🇬
+    server: zaintest.vuclip.com
     port: 443
-    type: trojan
-    password: aaaaaaa1-bbbb-4ccc-addd-eeeeeeeeeee1
+    type: vless
+    uuid: 036cf5b8-d8ba-4b92-a4ba-086bb2169812
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: api.instagram.com.b0kepindo.dpdns.org
+    servername: zaintest.vuclip.com.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /172.232.237.112=2053
+      path: /sg-do
       headers:
-        Host: api.instagram.com.b0kepindo.dpdns.org
+        Host: zaintest.vuclip.com.violetvpn.biz.id
     udp: true
   - name: (ID) PT Telkom
     server: ava.game.naver.com
