@@ -1,5 +1,5 @@
 proxies:
-  - name: (SG) Digitalocean, LLC 🇸🇬
+  - name: (SG) Digitalocean, LLC FB
     server: investor.fb.com
     port: 443
     type: vless
