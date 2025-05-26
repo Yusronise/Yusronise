@@ -1,18 +1,18 @@
 proxies:
-  - name: natanvpn
+  - name: Amazon-[Tls]-[VL]-[AFR]
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 16d60685-eef6-4e9e-8284-95daa82cef6d
+    uuid: f256cdbb-24a6-4513-964c-e863fd291131
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.6.round.web.id
+    servername: ava.game.naver.com.afrcloud.fun
     network: ws
     ws-opts:
-      path: /vless
+      path: /afrcloud/43.218.77.16/443
       headers:
-        Host: ava.game.naver.com.6.round.web.id
+        Host: ava.game.naver.com.afrcloud.fun
     udp: true
   - name: (ID) Amazon.com, Inc FB
     server: investor.fb.com
