@@ -1,18 +1,18 @@
 proxies:
-  - name: (ID) Amazoncom 🇮🇩
+  - name: (SG) Oracle Corporation 🇸🇬
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: 73794e5f-6f59-45b7-a7b0-a4d6cf5db41c
+    uuid: 11fa9b0a-dc02-49b5-b9b7-ca88b7a4160a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.kmspxvirtualbot.company.web.id
+    servername: support.zoom.us.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /ID2
+      path: /sg-orcl
       headers:
-        Host: support.zoom.us.kmspxvirtualbot.company.web.id
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
   - name: (ID) PT. Telekomunikasi 🇮🇩
     server: support.zoom.us
