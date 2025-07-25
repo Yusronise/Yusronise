@@ -1,18 +1,48 @@
 proxies:
-  - name: (ID) Akamai Connected ZOOM 2
+  - name: (ID) Amazoncom 🇮🇩
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    uuid: 73794e5f-6f59-45b7-a7b0-a4d6cf5db41c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.free.vpn-wuss.BIZ.id
+    servername: support.zoom.us.kmspxvirtualbot.company.web.id
     network: ws
     ws-opts:
-      path: /Free/TG-at-BitzBlack/172.232.239.151-587
+      path: /ID2
       headers:
-        Host: support.zoom.us.free.vpn-wuss.BIZ.id
+        Host: support.zoom.us.kmspxvirtualbot.company.web.id
+    udp: true
+  - name: (ID) PT. Telekomunikasi 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 5a788082-4e68-42bc-be74-3bec4724c8ff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-tele
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (ID) Kaopu Cloud 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 408ea9cd-3552-47ca-8ffc-35847f626c26
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-kao
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
   - name: (ID) Akamai Connected Cloud ZOOM
     server: support.zoom.us
@@ -26,19 +56,4 @@ proxies:
       path: /172.232.237.112=2053
       headers:
         Host: support.zoom.us.b0kepindo.dpdns.org
-    udp: true
-  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.notx.stupx2.my.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: support.zoom.us.notx.stupx2.my.id
     udp: true
