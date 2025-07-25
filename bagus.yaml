@@ -1,4 +1,19 @@
 proxies:
+  - name: (SG) OVH SAS 🇸🇬
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 706a17fc-f7e0-4770-a308-3018c014af33
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-ovh
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
   - name: (SG) Oracle Corporation 🇸🇬
     server: support.zoom.us
     port: 443
@@ -26,21 +41,6 @@ proxies:
     network: ws
     ws-opts:
       path: /id-tele
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) Kaopu Cloud 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 408ea9cd-3552-47ca-8ffc-35847f626c26
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-kao
       headers:
         Host: support.zoom.us.violetvpn.biz.id
     udp: true
