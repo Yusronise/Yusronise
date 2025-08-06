@@ -1,5 +1,5 @@
 proxies:
-  - name: VLESS-WS-TLS-443-ikd50denbagu
+  - name: ikd50denbagus
     server: support.zoom.us
     port: 443
     type: vless
