@@ -1,4 +1,19 @@
 proxies:
+  - name: VLESS-WS-TLS-443-ikd50denbagu
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: c69a29ac-d1c5-4419-b999-c0c56402840f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.ikd.sing-box.space
+    network: ws
+    ws-opts:
+      path: /secret-guide-to-virtual-reality/buy-vless-ws-pm-telegram-at-synricha
+      headers:
+        Host: support.zoom.us.ikd.sing-box.space
+    udp: true
   - name: (SG) OVH SAS 🇸🇬
     server: support.zoom.us
     port: 443
