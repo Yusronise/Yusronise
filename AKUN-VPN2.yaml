@@ -1,95 +1,85 @@
 proxies:
-  - name: (ID) Akamai Connected ZOOM 2
+  - name: VMess-WS-TLS-443-50ikadahaika
     server: support.zoom.us
     port: 443
-    type: vless
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    type: vmess
+    uuid: d6a96197-7da3-449f-8f23-a64fdb858cd0
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.free.vpn-wuss.BIZ.id
+    servername: support.zoom.us.ikada.sing-box.space
     network: ws
     ws-opts:
-      path: /Free/TG-at-BitzBlack/172.232.239.151-587
+      path: /expert-implement-to-blockchain/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: support.zoom.us.free.vpn-wuss.BIZ.id
+        Host: support.zoom.us.ikada.sing-box.space
     udp: true
-  - name: (ID) Akamai Connected Cloud ZOOM
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: aaaaaaa1-bbbb-4ccc-addd-eeeeeeeeeee1
-    skip-cert-verify: true
-    sni: support.zoom.us.b0kepindo.dpdns.org
-    network: ws
-    ws-opts:
-      path: /172.232.237.112=2053
-      headers:
-        Host: support.zoom.us.b0kepindo.dpdns.org
-    udp: true
-  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [notx]
+  - name: (ID) Pt Semut Data 🇮🇩
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
+    uuid: 97ea3466-2695-45af-85e8-6b039be47431
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.notx.stupx2.my.id
+    servername: support.zoom.us.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /103.133.223.51-2096
+      path: /id-semut
       headers:
-        Host: support.zoom.us.notx.stupx2.my.id
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
-  - name: 1 🇮🇩 Cloud Teknologi Nusantara AVA
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: ab814528-5618-439b-b902-09681629a533
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.notx.stupx2.my.id
-    network: ws
-    ws-opts:
-      path: /103.133.223.51-2096
-      headers:
-        Host: ava.game.naver.com.notx.stupx2.my.id
-    udp: true
-  - name: (ID) Akamai Connected Cloud 🇮🇩
-    server: b0kepindo.dpdns.org
-    port: 443
-    type: trojan
-    password: aaaaaaa1-bbbb-4ccc-addd-eeeeeeeeeee1
-    skip-cert-verify: true
-    sni: api.instagram.com.b0kepindo.dpdns.org
-    network: ws
-    ws-opts:
-      path: /172.232.237.112=2053
-      headers:
-        Host: api.instagram.com.b0kepindo.dpdns.org
-    udp: true
-  - name: 7 🇮🇩 HerzaID WS TLS [wilo]
+  - name: (ID) PT. Telekomunikasi 🇮🇩
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: 22f0527a-3668-45e5-8a46-4cda89f2182e
+    uuid: e6487ff3-69cd-4841-af8e-6c9f66fdc39c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.wilo.luckystup-id.xyz
+    servername: support.zoom.us.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /103.168.146.169-20132
+      path: /id-tele
       headers:
-        Host: support.zoom.us.wilo.luckystup-id.xyz
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: b9c12007-8fa8-4ee5-94de-479eb991056c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-pusat
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (SG) OVH SAS 🇸🇬
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 8ade5203-6848-4187-a185-e54559fb79c4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-ovh
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
   - name: (SG) Digitalocean, LLC 🇸🇬
     server: support.zoom.us
     port: 443
     type: vless
-    uuid: ecabba24-fccc-4940-b4a3-c4d7ebec02b5
+    uuid: dc45db1a-e108-4c4e-b398-ef1792db7d8c
     cipher: auto
     tls: true
     skip-cert-verify: true
