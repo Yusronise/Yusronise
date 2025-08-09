@@ -1,31 +1,76 @@
 proxies:
   - name: (ID) Pt Semut Data 🇮🇩
-    server: dl.cvs.freefiremobile.com
+    server: support.zoom.us
     port: 443
     type: vless
-    uuid: be61a388-7e3f-432c-812a-6c845a6915ef
+    uuid: 97ea3466-2695-45af-85e8-6b039be47431
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dl.cvs.freefiremobile.com.violetvpn.biz.id
+    servername: support.zoom.us.violetvpn.biz.id
     network: ws
     ws-opts:
       path: /id-semut
       headers:
-        Host: dl.cvs.freefiremobile.com.violetvpn.biz.id
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
-  - name: (SG) OVH SAS 🇸🇬
-    server: dl.cvs.freefiremobile.com
+  - name: (ID) PT. Telekomunikasi 🇮🇩
+    server: support.zoom.us
     port: 443
     type: vless
-    uuid: 190aaadf-9b13-44f0-9217-1073780a2826
+    uuid: e6487ff3-69cd-4841-af8e-6c9f66fdc39c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dl.cvs.freefiremobile.com.violetvpn.biz.id
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-tele
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: b9c12007-8fa8-4ee5-94de-479eb991056c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-pusat
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (SG) OVH SAS 🇸🇬
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 8ade5203-6848-4187-a185-e54559fb79c4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
     network: ws
     ws-opts:
       path: /sg-ovh
       headers:
-        Host: dl.cvs.freefiremobile.com.violetvpn.biz.id
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (SG) Digitalocean, LLC 🇸🇬
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: dc45db1a-e108-4c4e-b398-ef1792db7d8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-do
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
     udp: true
