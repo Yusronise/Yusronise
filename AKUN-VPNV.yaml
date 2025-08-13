@@ -1,47 +1,61 @@
 proxies:
-  - name: vmess_ws_https_Isee_VVIP
-    server: 104.17.70.206
-    port: 443
-    type: vmess
-    uuid: 835b88ef-7f72-4479-8114-24244ef0746d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ikd-cdn.apasih.id
-    network: ws
-    ws-opts:
-      path: /incredible-solve-to-security-practices/buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: ikd-cdn.apasih.id
-    udp: true
-  - name: (ID) PT Herza Digital Indonesia 🇮🇩
-    server: quiz.int.vidio.com
+  - name: (ID) Pt Pusat Media 🇮🇩
+    server: img.email1.vidio.com
     port: 443
     type: vless
-    uuid: 68968be6-1697-4cad-a0d8-9fa37fdc9b76
+    uuid: 0a3d098c-a4b8-4434-8946-27b9b91d850e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.int.vidio.com.mmx.vpnoir9r.us.kg
+    servername: img.email1.vidio.com.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /id2
+      path: /id-pusat
       headers:
-        Host: quiz.int.vidio.com.mmx.vpnoir9r.us.kg
+        Host: img.email1.vidio.com.violetvpn.biz.id
     udp: true
-  - name: 3 🇮🇩 Cloud Teknologi Nusantara WS TLS [nzr]
-    server: 104.17.70.206
+  - name: (ID) Rumahweb 🇮🇩
+    server: img.email1.vidio.com
     port: 443
     type: vless
-    uuid: 66b5fa9e-6c5c-4f28-ad30-3899354748dc
+    uuid: b131e909-c211-4a16-b5a2-81e08f1c0225
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: nzr.narxz.biz.id
+    servername: img.email1.vidio.com.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /103.133.223.51-2096
+      path: /id-rweb
       headers:
-        Host: nzr.narxz.biz.id
+        Host: img.email1.vidio.com.violetvpn.biz.id
+    udp: true
+  - name: (ID) Amazon.com, Inc 🇮🇩
+    server: quiz.staging.vidio.com
+    port: 443
+    type: vless
+    uuid: fd15e450-c428-4471-90e1-5bb76174d35a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-amz
+      headers:
+        Host: violetvpn.biz.id
+    udp: true
+  - name: (SG) Digitalocean, LLC 🇸🇬
+    server: img.email1.vidio.com
+    port: 443
+    type: vless
+    uuid: afff4606-7ca8-4509-b6c4-520122e5fcc5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: img.email1.vidio.com.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /sg-do
+      headers:
+        Host: img.email1.vidio.com.violetvpn.biz.id
     udp: true
