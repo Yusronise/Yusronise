@@ -59,3 +59,33 @@ proxies:
       headers:
         Host: img.email1.vidio.com.violetvpn.biz.id
     udp: true
+  - name: (ID) Pt Semut Data 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 97ea3466-2695-45af-85e8-6b039be47431
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-semut
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
+  - name: (ID) PT. Telekomunikasi 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: e6487ff3-69cd-4841-af8e-6c9f66fdc39c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-tele
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
