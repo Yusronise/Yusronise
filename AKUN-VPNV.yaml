@@ -89,3 +89,19 @@ proxies:
       headers:
         Host: support.zoom.us.violetvpn.biz.id
     udp: true
+  - name: (aswgaming) [VMess - ws] TLS ✅ vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: c1912d0c-768b-4386-a8ae-0a2b68e892e6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vip.ndygaming.store
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: vip.ndygaming.store
+    udp: true
