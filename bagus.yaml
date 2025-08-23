@@ -14,6 +14,21 @@ proxies:
       headers:
         Host: support.zoom.us.ikd.sing-box.space
     udp: true
+  - name: (ID) Rumahweb 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: f7541a9e-121a-41cd-8996-14258383022b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-rweb
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
   - name: (SG) OVH SAS 🇸🇬
     server: support.zoom.us
     port: 443
