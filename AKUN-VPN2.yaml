@@ -15,18 +15,18 @@ proxies:
       headers:
         Host: support.zoom.us.ikada.sing-box.space
     udp: true
-  - name: (ID) Pt Semut Data 🇮🇩
+  - name: (ID) test baru
     server: zoomgov.com
     port: 443
     type: vless
-    uuid: 97ea3466-2695-45af-85e8-6b039be47431
+    uuid: c413a628-33dc-48d4-b31f-8d05ebe35b20
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: zoomgov.com.violetvpn.biz.id
     network: ws
     ws-opts:
-      path: /id-semut
+      path: /id-tele
       headers:
         Host: zoomgov.com.violetvpn.biz.id
     udp: true
