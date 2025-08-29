@@ -1,4 +1,19 @@
 proxies:
+  - name: (ID) Rumahweb 🇮🇩
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: cd72e8ce-121e-4883-be3d-ec8f3044f88b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.violetvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /id-rweb
+      headers:
+        Host: support.zoom.us.violetvpn.biz.id
+    udp: true
   - name: (ID) Pt Semut Data 🇮🇩
     server: support.zoom.us
     port: 443
