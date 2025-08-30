@@ -5,27 +5,27 @@ proxies:
   type: trojan
   password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
   skip-cert-verify: true
-  sni: rest.web.id
+  sni: support.zoom.us.rest.web.id
   network: ws
   ws-opts:
     path: /203.194.112.119-2053
     headers:
-      Host: rest.web.id
+      Host: support.zoom.us.rest.web.id
   udp: true
 
 - name: 1 🇮🇩 Amazon.com WS TLS [adi]
-  server: rest.web.id
+  server: support.zoom.us
   type: vless
   port: 443
   uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
   tls: true
   skip-cert-verify: true
-  servername: rest.web.id
+  servername: support.zoom.us.rest.web.id
   network: ws
   ws-opts:
     path: /43.218.77.16-1443
     headers:
-      Host: rest.web.id
+      Host: support.zoom.us.rest.web.id
   udp: true
 
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
@@ -59,17 +59,16 @@ proxies:
   udp: true
 
 - name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
-  server: nzr2805.site
+  server: support.zoom.us
   type: vless
   port: 443
   uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
   tls: true
   skip-cert-verify: true
-  servername: nzr2805.site
+  servername: support.zoom.us.nzr2805.site
   network: ws
   ws-opts:
     path: /nzr/8.219.59.132-48964
     headers:
-      Host: nzr2805.site
+      Host: support.zoom.us.nzr2805.site
   udp: true
-  
