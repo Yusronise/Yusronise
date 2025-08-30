@@ -1,89 +1,75 @@
 proxies:
-  - name: ikd50denbagus
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: c69a29ac-d1c5-4419-b999-c0c56402840f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.ikd.sing-box.space
-    network: ws
-    ws-opts:
-      path: /secret-guide-to-virtual-reality/buy-vless-ws-pm-telegram-at-synricha
-      headers:
-        Host: support.zoom.us.ikd.sing-box.space
-    udp: true
-  - name: (ID) Rumahweb 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: f7541a9e-121a-41cd-8996-14258383022b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-rweb
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (SG) OVH SAS 🇸🇬
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 706a17fc-f7e0-4770-a308-3018c014af33
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-ovh
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (SG) Oracle Corporation 🇸🇬
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 11fa9b0a-dc02-49b5-b9b7-ca88b7a4160a
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-orcl
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) PT. Telekomunikasi 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 5a788082-4e68-42bc-be74-3bec4724c8ff
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-tele
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) Akamai Connected Cloud ZOOM
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: aaaaaaa1-bbbb-4ccc-addd-eeeeeeeeeee1
-    skip-cert-verify: true
-    sni: support.zoom.us.b0kepindo.dpdns.org
-    network: ws
-    ws-opts:
-      path: /172.232.237.112=2053
-      headers:
-        Host: support.zoom.us.b0kepindo.dpdns.org
-    udp: true
+- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  skip-cert-verify: true
+  sni: rest.web.id
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: rest.web.id
+  udp: true
+
+- name: 1 🇮🇩 Amazon.com WS TLS [adi]
+  server: rest.web.id
+  type: vless
+  port: 443
+  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  tls: true
+  skip-cert-verify: true
+  servername: rest.web.id
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: rest.web.id
+  udp: true
+
+- name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.stbwrt.web.id
+  network: ws
+  ws-opts:
+    path: /Inconigto-Mode/156.244.1.250-8443
+    headers:
+      Host: support.zoom.us.stbwrt.web.id
+  udp: true
+
+- name: (ID) PT Pusat Media Indonesia 
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: d88645e9-210f-433b-a609-73ea5e430867
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.kmspxvirtualbot.company.web.id
+  network: ws
+  ws-opts:
+    path: /ID5
+    headers:
+      Host: support.zoom.us.kmspxvirtualbot.company.web.id
+  udp: true
+
+- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
+  server: nzr2805.site
+  type: vless
+  port: 443
+  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
+  tls: true
+  skip-cert-verify: true
+  servername: nzr2805.site
+  network: ws
+  ws-opts:
+    path: /nzr/8.219.59.132-48964
+    headers:
+      Host: nzr2805.site
+  udp: true
+  
