@@ -1,107 +1,74 @@
-proxies:
-  - name: (ID) Pt Pusat Media 🇮🇩
-    server: img.email1.vidio.com
-    port: 443
-    type: vless
-    uuid: 0a3d098c-a4b8-4434-8946-27b9b91d850e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: img.email1.vidio.com.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-pusat
-      headers:
-        Host: img.email1.vidio.com.violetvpn.biz.id
-    udp: true
-  - name: (ID) Rumahweb 🇮🇩
-    server: img.email1.vidio.com
-    port: 443
-    type: vless
-    uuid: b131e909-c211-4a16-b5a2-81e08f1c0225
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: img.email1.vidio.com.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-rweb
-      headers:
-        Host: img.email1.vidio.com.violetvpn.biz.id
-    udp: true
-  - name: (ID) Amazon.com, Inc 🇮🇩
-    server: quiz.staging.vidio.com
-    port: 443
-    type: vless
-    uuid: fd15e450-c428-4471-90e1-5bb76174d35a
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-amz
-      headers:
-        Host: violetvpn.biz.id
-    udp: true
-  - name: (SG) Digitalocean, LLC 🇸🇬
-    server: img.email1.vidio.com
-    port: 443
-    type: vless
-    uuid: afff4606-7ca8-4509-b6c4-520122e5fcc5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: img.email1.vidio.com.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-do
-      headers:
-        Host: img.email1.vidio.com.violetvpn.biz.id
-    udp: true
-  - name: (ID) Pt Semut Data 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 97ea3466-2695-45af-85e8-6b039be47431
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-semut
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) PT. Telekomunikasi 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e6487ff3-69cd-4841-af8e-6c9f66fdc39c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-tele
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (aswgaming) [VMess - ws] TLS ✅ vidio
-    server: quiz.int.vidio.com
-    port: 443
-    type: vmess
-    uuid: c1912d0c-768b-4386-a8ae-0a2b68e892e6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vip.ndygaming.store
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: vip.ndygaming.store
-    udp: true
+
+- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  skip-cert-verify: true
+  sni: quiz.int.vidio.com.rest.web.id
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: quiz.int.vidio.com.rest.web.id
+  udp: true
+
+- name: 1 🇮🇩 Amazon.com WS TLS [adi]
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.rest.web.id
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: quiz.int.vidio.com.rest.web.id
+  udp: true
+
+- name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.stbwrt.web.id
+  network: ws
+  ws-opts:
+    path: /Inconigto-Mode/156.244.1.250-8443
+    headers:
+      Host: quiz.int.vidio.com.stbwrt.web.id
+  udp: true
+
+- name: (ID) PT Pusat Media Indonesia 
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: d88645e9-210f-433b-a609-73ea5e430867
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.kmspxvirtualbot.company.web.id
+  network: ws
+  ws-opts:
+    path: /ID5
+    headers:
+      Host: quiz.int.vidio.com.kmspxvirtualbot.company.web.id
+  udp: true
+
+- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.nzr2805.site
+  network: ws
+  ws-opts:
+    path: /nzr/8.219.59.132-48964
+    headers:
+      Host: quiz.int.vidio.com.nzr2805.site
+  udp: true
