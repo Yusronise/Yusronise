@@ -1,91 +1,73 @@
 proxies:
-  - name: (ID) Rumahweb 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: cd72e8ce-121e-4883-be3d-ec8f3044f88b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-rweb
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) Pt Semut Data 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 97ea3466-2695-45af-85e8-6b039be47431
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-semut
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) PT. Telekomunikasi 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: e6487ff3-69cd-4841-af8e-6c9f66fdc39c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-tele
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (ID) Pt Pusat Media 🇮🇩
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: b9c12007-8fa8-4ee5-94de-479eb991056c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /id-pusat
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (SG) OVH SAS 🇸🇬
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: 8ade5203-6848-4187-a185-e54559fb79c4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-ovh
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
-  - name: (SG) Digitalocean, LLC 🇸🇬
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: dc45db1a-e108-4c4e-b398-ef1792db7d8c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.violetvpn.biz.id
-    network: ws
-    ws-opts:
-      path: /sg-do
-      headers:
-        Host: support.zoom.us.violetvpn.biz.id
-    udp: true
+- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS [adi]
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  skip-cert-verify: true
+  sni: support.zoom.us.rest.web.id
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: support.zoom.us.rest.web.id
+  udp: true
+
+- name: 1 🇮🇩 Amazon.com WS TLS [adi]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.rest.web.id
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: support.zoom.us.rest.web.id
+  udp: true
+
+- name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.stbwrt.web.id
+  network: ws
+  ws-opts:
+    path: /Inconigto-Mode/156.244.1.250-8443
+    headers:
+      Host: support.zoom.us.stbwrt.web.id
+  udp: true
+
+- name: (ID) PT Pusat Media Indonesia 
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: d88645e9-210f-433b-a609-73ea5e430867
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.kmspxvirtualbot.company.web.id
+  network: ws
+  ws-opts:
+    path: /ID5
+    headers:
+      Host: support.zoom.us.kmspxvirtualbot.company.web.id
+  udp: true
+
+- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.nzr2805.site
+  network: ws
+  ws-opts:
+    path: /nzr/8.219.59.132-48964
+    headers:
+      Host: support.zoom.us.nzr2805.site
