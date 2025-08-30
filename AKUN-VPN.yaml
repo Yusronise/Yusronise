@@ -1,4 +1,20 @@
 proxies:
+- name: (ID) Rumahweb 🇮🇩
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: e63d18dd-65ad-45be-abe1-89b41f1c36e0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.mstkkee3.dpdns.org
+  ws-opts:
+    path: /id-rmhwb
+    headers:
+      Host: support.zoom.us.mstkkee3.dpdns.org
+  udp: true
+  
 - name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS [adi]
   server: support.zoom.us
   port: 443
