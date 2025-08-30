@@ -1,5 +1,4 @@
 proxies:
-
 - name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS
   server: quiz.int.vidio.com
   port: 443
@@ -13,7 +12,6 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.rest.web.id
   udp: true
-
 - name: 1 🇮🇩 Amazon.com WS TLS [adi]
   server: quiz.int.vidio.com
   type: vless
@@ -28,7 +26,6 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.rest.web.id
   udp: true
-
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: quiz.int.vidio.com
   type: vless
@@ -43,7 +40,6 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.stbwrt.web.id
   udp: true
-
 - name: (ID) PT Pusat Media Indonesia 
   server: quiz.int.vidio.com
   type: vless
@@ -58,7 +54,6 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.kmspxvirtualbot.company.web.id
   udp: true
-
 - name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
   server: quiz.int.vidio.com
   type: vless
