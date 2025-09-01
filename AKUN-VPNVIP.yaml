@@ -43,3 +43,31 @@ proxies:
     headers:
       Host: support.zoom.us.11.round.web.id
   udp: true
+- name: Alibaba Cloud [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.afrcloud.web.id
+  network: ws
+  ws-opts:
+    path: /nzr/149.129.250.8-443
+    headers:
+      Host: support.zoom.us.afrcloud.web.id
+  udp: true
+- name: CV. Rumahweb Indonesia [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.afrcloud.web.id
+  network: ws
+  ws-opts:
+    path: /nzr/203.194.112.119-8443
+    headers:
+      Host: support.zoom.us.afrcloud.web.id
+  udp: true
