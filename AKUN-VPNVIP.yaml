@@ -1,5 +1,4 @@
 proxies:
-
 - name: VMess-WS-TLS-443-50ikadahaika
   server: 104.21.69.223
   type: vmess
