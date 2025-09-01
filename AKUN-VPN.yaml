@@ -1,48 +1,4 @@
 proxies:
-- name: natanvpn
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.11.round.web.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: support.zoom.us.11.round.web.id
-  udp: true
-  
-- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS [adi]
-  server: support.zoom.us
-  port: 443
-  type: trojan
-  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  skip-cert-verify: true
-  sni: support.zoom.us.rest.web.id
-  network: ws
-  ws-opts:
-    path: /203.194.112.119-2053
-    headers:
-      Host: support.zoom.us.rest.web.id
-  udp: true
-
-- name: 1 🇮🇩 Amazon.com WS TLS [adi]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.rest.web.id
-  network: ws
-  ws-opts:
-    path: /43.218.77.16-1443
-    headers:
-      Host: support.zoom.us.rest.web.id
-  udp: true
-
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
   type: vless
@@ -57,17 +13,45 @@ proxies:
     headers:
       Host: support.zoom.us.stbwrt.web.id
   udp: true
-
-- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
+- name: natanvpn
   server: support.zoom.us
   type: vless
   port: 443
-  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
+  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.nzr2805.site
+  servername: support.zoom.us.11.round.web.id
   network: ws
   ws-opts:
-    path: /nzr/8.219.59.132-48964
+    path: /vless
     headers:
-      Host: support.zoom.us.nzr2805.site
+      Host: support.zoom.us.11.round.web.id
+  udp: true
+- name: Alibaba Cloud [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.afrcloud.web.id
+  network: ws
+  ws-opts:
+    path: /nzr/149.129.250.8-443
+    headers:
+      Host: support.zoom.us.afrcloud.web.id
+  udp: true
+- name: CV. Rumahweb Indonesia [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.afrcloud.web.id
+  network: ws
+  ws-opts:
+    path: /nzr/203.194.112.119-8443
+    headers:
+      Host: support.zoom.us.afrcloud.web.id
+  udp: true
