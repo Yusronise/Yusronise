@@ -43,49 +43,21 @@ proxies:
     headers:
       Host: support.zoom.us.11.round.web.id
   udp: true
-- name: (ID)lft
-  server: support.zoom.us
-  port: 443
-  type: vless
-  uuid: dfa8160d-df65-4b68-af7e-7e7c0c1317e4
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: support.zoom.us.worker.biz.id
-  ws-opts:
-    path: /128.199.134.152-443
-    headers:
-      Host: support.zoom.us.worker.biz.id
-  udp: true
-  
-- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS [adi]
-  server: support.zoom.us
-  port: 443
-  type: trojan
-  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  skip-cert-verify: true
-  sni: support.zoom.us.rest.web.id
-  network: ws
-  ws-opts:
-    path: /203.194.112.119-2053
-    headers:
-      Host: support.zoom.us.rest.web.id
-  udp: true
 
-- name: 1 🇮🇩 Amazon.com WS TLS [adi]
-  server: support.zoom.us
+- name: (ID) PT. Telekomunikasi 🇮🇩
   type: vless
+  server: support.zoom.us
   port: 443
-  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  tls: true
+  uuid: 9a8cd000-d0c9-4493-b87b-2c6b58bab1d2
+  cipher: none
   skip-cert-verify: true
-  servername: support.zoom.us.rest.web.id
+  servername: support.zoom.us.violetvpn.my.id
+  tls: true
   network: ws
   ws-opts:
-    path: /43.218.77.16-1443
+    path: /id-tele
     headers:
-      Host: support.zoom.us.rest.web.id
+      Host: support.zoom.us.violetvpn.my.id
   udp: true
 
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
@@ -102,32 +74,3 @@ proxies:
     headers:
       Host: support.zoom.us.stbwrt.web.id
   udp: true
-
-- name: (ID) PT Pusat Media Indonesia 
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: d88645e9-210f-433b-a609-73ea5e430867
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.kmspxvirtualbot.company.web.id
-  network: ws
-  ws-opts:
-    path: /ID5
-    headers:
-      Host: support.zoom.us.kmspxvirtualbot.company.web.id
-  udp: true
-
-- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.nzr2805.site
-  network: ws
-  ws-opts:
-    path: /nzr/8.219.59.132-48964
-    headers:
-      Host: support.zoom.us.nzr2805.site
