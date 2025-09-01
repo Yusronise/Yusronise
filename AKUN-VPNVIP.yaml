@@ -29,6 +29,20 @@ proxies:
     headers:
       Host: support.zoom.us.ikada.sing-box.space
   udp: true
+- name: natanvpn
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.11.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: support.zoom.us.11.round.web.id
+  udp: true
 - name: (ID) Rumahweb 🇮🇩
   server: support.zoom.us
   port: 443
