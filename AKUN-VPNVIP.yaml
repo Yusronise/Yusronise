@@ -1,3 +1,4 @@
+proxies:
   - name: "[1] ID - PT Telekomunikasi Indonesia [VLESS-TLS]"
     server: support.zoom.us
     port: 443
