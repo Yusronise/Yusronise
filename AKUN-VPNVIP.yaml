@@ -29,46 +29,17 @@ proxies:
     headers:
       Host: support.zoom.us.stbwrt.web.id
   udp: true
-- name: [1] ID - Kaopu Cloud HK Limited [VLESS-TLS]
+- name: natanvpn
   server: support.zoom.us
   type: vless
   port: 443
-  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.afrcloud.web.id
+  servername: support.zoom.us.11.round.web.id
   network: ws
   ws-opts:
-    path: /nzr/156.244.1.250-8443
+    path: /vless
     headers:
-      Host: support.zoom.us.afrcloud.web.id
+      Host: support.zoom.us.11.round.web.id
   udp: true
-- name: [2] ID - Alibaba Cloud [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.afrcloud.web.id
-  network: ws
-  ws-opts:
-    path: /nzr/149.129.250.8-443
-    headers:
-      Host: support.zoom.us.afrcloud.web.id
-  udp: true
-- name: [6] ID - CV. Rumahweb Indonesia [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.afrcloud.web.id
-  network: ws
-  ws-opts:
-    path: /nzr/203.194.112.119-8443
-    headers:
-      Host: support.zoom.us.afrcloud.web.id
-  udp: true
-  
