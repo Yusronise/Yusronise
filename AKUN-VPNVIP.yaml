@@ -43,20 +43,19 @@ proxies:
     headers:
       Host: support.zoom.us.11.round.web.id
   udp: true
-- name: (ID) PT. Telekomunikasi 🇮🇩
-  type: vless
+- name: (MasBodong) [VLESS - ws] TLS ✅
   server: support.zoom.us
+  type: vless
   port: 443
-  uuid: 9a8cd000-d0c9-4493-b87b-2c6b58bab1d2
-  cipher: none
-  skip-cert-verify: true
-  servername: support.zoom.us.violetvpn.my.id
+  uuid: b62a103e-2291-408d-826c-1e5c4a3a41d3
   tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.free.violetvpn.biz.id
   network: ws
   ws-opts:
-    path: /id-tele
+    path: /vless
     headers:
-      Host: support.zoom.us.violetvpn.my.id
+      Host: support.zoom.us.free.violetvpn.biz.id
   udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
