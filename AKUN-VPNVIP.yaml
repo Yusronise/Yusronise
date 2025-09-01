@@ -1,102 +1,120 @@
-proxies:
-- name: VLESS-WS-TLS-443-ikd50denbagu
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: c69a29ac-d1c5-4419-b999-c0c56402840f
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.ikd.sing-box.space
-  network: ws
-  ws-opts:
-    path: /secret-guide-to-virtual-reality/buy-vless-ws-pm-telegram-at-synricha
-    headers:
-      Host: support.zoom.us.ikd.sing-box.space
-  udp: true
-- name: VMess-WS-TLS-443-50ikadahaika
-  server: support.zoom.us
-  type: vmess
-  port: 443
-  uuid: d6a96197-7da3-449f-8f23-a64fdb858cd0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.ikada.sing-box.space
-  network: ws
-  ws-opts:
-    path: /expert-implement-to-blockchain/buy-vmess-ws-pm-telegram-at-synricha
-    headers:
-      Host: support.zoom.us.ikada.sing-box.space
-  udp: true
-- name: natanvpn
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.11.round.web.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: support.zoom.us.11.round.web.id
-  udp: true
-- name: (MasBodong) [VLESS - ws] TLS ✅
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: b62a103e-2291-408d-826c-1e5c4a3a41d3
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.free.violetvpn.biz.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: support.zoom.us.free.violetvpn.biz.id
-  udp: true
-- name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.stbwrt.web.id
-  network: ws
-  ws-opts:
-    path: /Inconigto-Mode/156.244.1.250-8443
-    headers:
-      Host: support.zoom.us.stbwrt.web.id
-  udp: true
-- name: (ID) Rumahweb 🇮🇩
-  type: vless
-  server: support.zoom.us
-  port: 443
-  uuid: e1dad4d5-108b-4069-81d0-82e7d211de44
-  cipher: none
-  skip-cert-verify: true
-  servername: support.zoom.us.violetvpn.my.id
-  tls: true
-  network: ws
-  ws-opts:
-    path: /id-rweb
-    headers:
-      Host: support.zoom.us.violetvpn.my.id
-  udp: true
-- name: ID - CV. Rumahweb Indonesia [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: a77a7eb1-1819-46b5-94c5-431a6297ba50
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.stbwrt.biz.id
-  network: ws
-  ws-opts:
-    path: /nzr/203.194.112.119-2053
-    headers:
-      Host: support.zoom.us.stbwrt.biz.id
-  udp: true
+  - name: "[1] ID - PT Telekomunikasi Indonesia [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/36.95.152.58-12137
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[2] ID - Akamai Connected Cloud [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/172.232.238.56-443
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[3] ID - PT MITRA VISIONER PRATAMA [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/206.84.101.83-8443
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[4] ID - Kaopu Cloud HK Limited [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/156.244.1.250-8443
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[5] ID - CV. Rumahweb Indonesia [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/203.194.112.119-2053
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[6] ID - CV. Rumahweb Indonesia [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/203.194.112.119-8443
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[7] ID - PT Pusat Media Indonesia [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/103.6.207.108-8080
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
+  - name: "[8] ID - Alibaba Cloud [VLESS-TLS]"
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.afrcloud.web.id
+    network: ws
+    ws-opts:
+      path: /nzr/149.129.250.8-443
+      headers:
+        Host: support.zoom.us.afrcloud.web.id
+    udp: true
