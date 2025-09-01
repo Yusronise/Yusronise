@@ -1,18 +1,17 @@
 proxies:
-- name: (ID) Rumahweb 🇮🇩
+- name: natanvpn
   server: support.zoom.us
-  port: 443
   type: vless
-  uuid: e63d18dd-65ad-45be-abe1-89b41f1c36e0
-  cipher: auto
+  port: 443
+  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
   tls: true
   skip-cert-verify: true
+  servername: support.zoom.us.11.round.web.id
   network: ws
-  servername: support.zoom.us.mstkkee3.dpdns.org
   ws-opts:
-    path: /id-rmhwb
+    path: /vless
     headers:
-      Host: support.zoom.us.mstkkee3.dpdns.org
+      Host: support.zoom.us.11.round.web.id
   udp: true
   
 - name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS [adi]
@@ -57,21 +56,6 @@ proxies:
     path: /Inconigto-Mode/156.244.1.250-8443
     headers:
       Host: support.zoom.us.stbwrt.web.id
-  udp: true
-
-- name: (ID) PT Pusat Media Indonesia 
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: d88645e9-210f-433b-a609-73ea5e430867
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.kmspxvirtualbot.company.web.id
-  network: ws
-  ws-opts:
-    path: /ID5
-    headers:
-      Host: support.zoom.us.kmspxvirtualbot.company.web.id
   udp: true
 
 - name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
