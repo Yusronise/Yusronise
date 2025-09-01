@@ -1,9 +1,9 @@
 proxies:
-- name: OoOwIsuk-WS-TLS cek
+- name: isee
   server: support.zoom.us
   type: vless
   port: 443
-  uuid: a402390e-b009-4913-b85f-e04fbe4a8a5f
+  uuid: 8b53dcc5-b8b3-4f61-977d-035e7e24d6b0
   tls: true
   skip-cert-verify: true
   servername: support.zoom.us.id.zidstore.net
@@ -12,20 +12,6 @@ proxies:
     path: /whatever/vless
     headers:
       Host: support.zoom.us.id.zidstore.net
-  udp: true
-- name: TrialVL089
-  server: indo.bumiayuvpn.web.id
-  type: vless
-  port: 443
-  uuid: 1087ec1d-5fa8-4517-b42d-e1708e7027de
-  tls: true
-  skip-cert-verify: true
-  servername: indo.bumiayuvpn.web.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: indo.bumiayuvpn.web.id
   udp: true
 - name: VMess-WS-TLS-443-50ikadahaika
   server: support.zoom.us
