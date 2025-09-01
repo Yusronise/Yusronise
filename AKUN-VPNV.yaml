@@ -1,70 +1,57 @@
 proxies:
-- name: 5 🇮🇩 CV. Rumahweb Indonesia WS TLS
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  skip-cert-verify: true
-  sni: quiz.int.vidio.com.rest.web.id
-  network: ws
-  ws-opts:
-    path: /203.194.112.119-2053
-    headers:
-      Host: quiz.int.vidio.com.rest.web.id
-  udp: true
-- name: 1 🇮🇩 Amazon.com WS TLS [adi]
-  server: quiz.int.vidio.com
-  type: vless
-  port: 443
-  uuid: 1dfab8b6-43db-4701-b2fd-a4d07c4d2c48
-  tls: true
-  skip-cert-verify: true
-  servername: quiz.int.vidio.com.rest.web.id
-  network: ws
-  ws-opts:
-    path: /43.218.77.16-1443
-    headers:
-      Host: quiz.int.vidio.com.rest.web.id
-  udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
-  server: quiz.int.vidio.com
+  server: support.zoom.us
   type: vless
   port: 443
   uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
   tls: true
   skip-cert-verify: true
-  servername: quiz.int.vidio.com.stbwrt.web.id
+  servername: support.zoom.us.stbwrt.web.id
   network: ws
   ws-opts:
     path: /Inconigto-Mode/156.244.1.250-8443
     headers:
-      Host: quiz.int.vidio.com.stbwrt.web.id
+      Host: support.zoom.us.stbwrt.web.id
   udp: true
-- name: (ID) PT Pusat Media Indonesia 
-  server: quiz.int.vidio.com
+- name: natanvpn
+  server: support.zoom.us
   type: vless
   port: 443
-  uuid: d88645e9-210f-433b-a609-73ea5e430867
+  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
   tls: true
   skip-cert-verify: true
-  servername: quiz.int.vidio.com.kmspxvirtualbot.company.web.id
+  servername: support.zoom.us.11.round.web.id
   network: ws
   ws-opts:
-    path: /ID5
+    path: /vless
     headers:
-      Host: quiz.int.vidio.com.kmspxvirtualbot.company.web.id
+      Host: support.zoom.us.11.round.web.id
   udp: true
-- name: Alibaba US Technology Co-[Tls]-[VL]-[AFR]
-  server: quiz.int.vidio.com
+- name: Alibaba Cloud [VLESS-TLS]
+  server: support.zoom.us
   type: vless
   port: 443
-  uuid: 22090db4-c13e-484a-ad3d-957b1607d28d
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
   tls: true
   skip-cert-verify: true
-  servername: quiz.int.vidio.com.nzr2805.site
+  servername: support.zoom.us.afrcloud.web.id
   network: ws
   ws-opts:
-    path: /nzr/8.219.59.132-48964
+    path: /nzr/149.129.250.8-443
     headers:
-      Host: quiz.int.vidio.com.nzr2805.site
+      Host: support.zoom.us.afrcloud.web.id
+  udp: true
+- name: CV. Rumahweb Indonesia [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.afrcloud.web.id
+  network: ws
+  ws-opts:
+    path: /nzr/203.194.112.119-8443
+    headers:
+      Host: support.zoom.us.afrcloud.web.id
   udp: true
