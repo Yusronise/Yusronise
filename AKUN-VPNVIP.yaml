@@ -1,5 +1,20 @@
 proxies:
-
+- name: VMess-WS-TLS-443-50ikadahaika
+  server: support.zoom.us
+  type: vmess
+  port: 443
+  uuid: d6a96197-7da3-449f-8f23-a64fdb858cd0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ikada.sing-box.space
+  network: ws
+  ws-opts:
+    path: /expert-implement-to-blockchain/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: support.zoom.us.ikada.sing-box.space
+  udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
   type: vless
