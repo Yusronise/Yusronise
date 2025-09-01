@@ -13,19 +13,19 @@ proxies:
     headers:
       Host: support.zoom.us.point.sing-box.space
   udp: true
-- name: VLESS-WS-TLS-443-trial-6885015975-1756738242
-  server: support.zoom.us
+- name: TrialVL089
+  server: indo.bumiayuvpn.web.id
   type: vless
   port: 443
-  uuid: dabbbaaf-5dde-4d7c-ac91-feeb0508f255
+  uuid: 1087ec1d-5fa8-4517-b42d-e1708e7027de
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.queen.sing-box.space
+  servername: indo.bumiayuvpn.web.id
   network: ws
   ws-opts:
-    path: /game-changing-configure-to-tech-trends/buy-vless-ws-pm-telegram-at-synricha
+    path: /vless
     headers:
-      Host: support.zoom.us.queen.sing-box.space
+      Host: indo.bumiayuvpn.web.id
   udp: true
 - name: VMess-WS-TLS-443-50ikadahaika
   server: support.zoom.us
