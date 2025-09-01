@@ -1,17 +1,17 @@
 proxies:
 - name: VLESS-WS-TLS-443-trial-6885015975-1756738242
-  server: queen.sing-box.space
+  server: support.zoom.us
   type: vless
   port: 443
   uuid: dabbbaaf-5dde-4d7c-ac91-feeb0508f255
   tls: true
   skip-cert-verify: true
-  servername: queen.sing-box.space
+  servername: support.zoom.us.queen.sing-box.space
   network: ws
   ws-opts:
     path: /game-changing-configure-to-tech-trends/buy-vless-ws-pm-telegram-at-synricha
     headers:
-      Host: queen.sing-box.space
+      Host: support.zoom.us.queen.sing-box.space
   udp: true
 - name: VMess-WS-TLS-443-50ikadahaika
   server: support.zoom.us
