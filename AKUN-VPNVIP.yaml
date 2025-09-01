@@ -86,3 +86,17 @@ proxies:
     headers:
       Host: support.zoom.us.violetvpn.my.id
   udp: true
+- name: ID - CV. Rumahweb Indonesia [VLESS-TLS]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: a77a7eb1-1819-46b5-94c5-431a6297ba50
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.stbwrt.biz.id
+  network: ws
+  ws-opts:
+    path: /nzr/203.194.112.119-2053
+    headers:
+      Host: support.zoom.us.stbwrt.biz.id
+  udp: true
