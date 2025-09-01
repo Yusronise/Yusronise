@@ -1,6 +1,6 @@
 proxies:
-- name: OoOwIsuk-WS-TLS
-  server: support.zoom.is
+- name: OoOwIsuk-WS-TLS cek
+  server: support.zoom.us
   type: vless
   port: 443
   uuid: a402390e-b009-4913-b85f-e04fbe4a8a5f
