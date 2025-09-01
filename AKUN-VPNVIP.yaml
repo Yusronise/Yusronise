@@ -43,7 +43,6 @@ proxies:
     headers:
       Host: support.zoom.us.11.round.web.id
   udp: true
-
 - name: (ID) PT. Telekomunikasi 🇮🇩
   type: vless
   server: support.zoom.us
@@ -59,7 +58,6 @@ proxies:
     headers:
       Host: support.zoom.us.violetvpn.my.id
   udp: true
-
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
   type: vless
