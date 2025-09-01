@@ -1,17 +1,17 @@
 proxies:
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
-  server: support.zoom.us
+  server: quiz.int.vidio.com
   type: vless
   port: 443
   uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.stbwrt.web.id
+  servername: quiz.int.vidio.com.stbwrt.web.id
   network: ws
   ws-opts:
     path: /Inconigto-Mode/156.244.1.250-8443
     headers:
-      Host: support.zoom.us.stbwrt.web.id
+      Host: quiz.int.vidio.com.stbwrt.web.id
   udp: true
 - name: natanvpn
   server: support.zoom.us
