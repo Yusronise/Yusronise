@@ -1,6 +1,20 @@
 proxies:
+- name: VLESS-WS-TLS-443-ikd50denbagu
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: c69a29ac-d1c5-4419-b999-c0c56402840f
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ikd.sing-box.space
+  network: ws
+  ws-opts:
+    path: /secret-guide-to-virtual-reality/buy-vless-ws-pm-telegram-at-synricha
+    headers:
+      Host: support.zoom.us.ikd.sing-box.space
+  udp: true
 - name: VMess-WS-TLS-443-50ikadahaika
-  server: 104.21.69.223
+  server: support.zoom.us
   type: vmess
   port: 443
   uuid: d6a96197-7da3-449f-8f23-a64fdb858cd0
@@ -8,12 +22,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ikada.sing-box.space
+  servername: support.zoom.us.ikada.sing-box.space
   network: ws
   ws-opts:
     path: /expert-implement-to-blockchain/buy-vmess-ws-pm-telegram-at-synricha
     headers:
-      Host: ikada.sing-box.space
+      Host: support.zoom.us.ikada.sing-box.space
   udp: true
 - name: (ID) Rumahweb 🇮🇩
   server: support.zoom.us
