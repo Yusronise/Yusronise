@@ -1,17 +1,17 @@
 proxies:
-- name: VLESS-WS-TLS-443-trial-6885015975-1756738661
-  server: support.zoom.us
+- name: OoOwIsuk-WS-TLS
+  server: support.zoom.is
   type: vless
   port: 443
-  uuid: fcf43af7-6897-49a2-8522-d7c2afb88d5e
+  uuid: a402390e-b009-4913-b85f-e04fbe4a8a5f
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.point.sing-box.space
+  servername: support.zoom.us.id.zidstore.net
   network: ws
   ws-opts:
-    path: /strategic-build-to-virtual-reality/buy-vless-ws-pm-telegram-at-synricha
+    path: /whatever/vless
     headers:
-      Host: support.zoom.us.point.sing-box.space
+      Host: support.zoom.us.id.zidstore.net
   udp: true
 - name: TrialVL089
   server: indo.bumiayuvpn.web.id
