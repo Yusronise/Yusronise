@@ -29,18 +29,19 @@ proxies:
     headers:
       Host: support.zoom.us.ikada.sing-box.space
   udp: true
-- name: Trojan-jannn-GO WS
+- name: Digitalocean, LLC
   server: support.zoom.us
+  type: vless
   port: 443
-  type: trojan
-  password: c95852ca-fb84-4edf-af9c-587be1cbd738
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
   skip-cert-verify: true
-  sni: support.zoom.us.afk.nathanvpn.pp.ua
+  servername: support.zoom.us.free.tunneling.qzz.io
   network: ws
   ws-opts:
-    path: /whatever/trojan-ws
+    path: /178.128.80.43=443
     headers:
-      Host: support.zoom.us.afk.nathanvpn.pp.ua
+      Host: support.zoom.us.free.tunneling.qzz.io
   udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
