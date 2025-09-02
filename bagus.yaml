@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: support.zoom.us.11.round.web.id
   udp: true
+- name: Digitalocean, LLC
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.free.tunneling.qzz.io
+  network: ws
+  ws-opts:
+    path: /178.128.80.43=443
+    headers:
+      Host: support.zoom.us.free.tunneling.qzz.io
+  udp: true
 - name: Alibaba Cloud [VLESS-TLS]
   server: support.zoom.us
   type: vless
