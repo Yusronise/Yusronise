@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.11.round.web.id
   udp: true
+- name: Digitalocean, LLC
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.free.tunneling.qzz.io
+  network: ws
+  ws-opts:
+    path: /178.128.80.43=443
+    headers:
+      Host: quiz.int.vidio.com.free.tunneling.qzz.io
+  udp: true
 - name: Alibaba Cloud [VLESS-TLS]
   server: quiz.int.vidio.com
   type: vless
