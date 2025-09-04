@@ -54,6 +54,20 @@ proxies:
     headers:
       Host: quiz.int.vidio.com.afrcloud.web.id
   udp: true
+- name: (ID) PT Telekomunikasi Indonesia🇮🇩
+  server: support.vidio.com
+  type: vless
+  port: 443
+  uuid: 5db6d142-4069-45f7-b148-87b1f59dc074
+  tls: true
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.joss.krikkrik.tech
+  network: ws
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/36.95.152.58=12137
+    headers:
+      Host: quiz.int.vidio.com.joss.krikkrik.tech
+  udp: true
 - name: CV. Rumahweb Indonesia [VLESS-TLS]
   server: quiz.int.vidio.com
   type: vless
