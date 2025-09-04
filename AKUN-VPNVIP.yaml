@@ -57,19 +57,18 @@ proxies:
     headers:
       Host: support.zoom.us.stbwrt.web.id
   udp: true
-- name: natanvpn
+- name: PT MITRA VISIONER 🇮🇩
   server: support.zoom.us
-  type: vless
   port: 443
-  uuid: f92a8e32-8e8f-46ac-8c1c-38a15b37d125
-  tls: true
+  type: trojan
+  password: ZEROXNXX-XXXXXX-XXX
   skip-cert-verify: true
-  servername: support.zoom.us.11.round.web.id
   network: ws
+  sni: support.zoom.us.wildcard.zerostore.tech
   ws-opts:
-    path: /vless
+    path: /trojan=206.84.101.83=8443
     headers:
-      Host: support.zoom.us.11.round.web.id
+      Host: support.zoom.us.wildcard.zerostore.tech
   udp: true
 - name: Alibaba Cloud [VLESS-TLS]
   server: support.zoom.us
