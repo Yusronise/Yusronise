@@ -1,6 +1,6 @@
 proxies:
 - name: bumiayuvpn
-  server: 104.17.74.206
+  server: chat.sociomile.com
   type: vmess
   port: 443
   uuid: fe759822-d916-4306-8200-95be5d0bfbc9
@@ -16,7 +16,7 @@ proxies:
       Host: jokowilovers.bumiayu.cloud
   udp: true
 - name: PT MITRA VISIONER 🇮🇩
-  server: 104.17.74.206
+  server: chat.sociomile.com
   port: 443
   type: trojan
   password: ZEROXNXX-XXXXXX-XXX
@@ -29,7 +29,7 @@ proxies:
       Host: wildcard.zerostore.tech
   udp: true
 - name: Digitalocean, LLC
-  server: quiz.int.vidio.com
+  server: chat.sociomile.com
   type: vless
   port: 443
   uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
