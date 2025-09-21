@@ -1,4 +1,20 @@
 proxies:
+- name: bumiayuvpn
+  server: 104.17.74.206
+  type: vmess
+  port: 443
+  uuid: fe759822-d916-4306-8200-95be5d0bfbc9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jokowilovers.bumiayu.cloud
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: jokowilovers.bumiayu.cloud
+  udp: true
 - name: PT MITRA VISIONER 🇮🇩
   server: 104.17.74.206
   port: 443
