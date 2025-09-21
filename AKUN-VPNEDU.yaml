@@ -1,0 +1,28 @@
+proxies:
+- name: PT MITRA VISIONER 🇮🇩
+  server: 104.17.74.206
+  port: 443
+  type: trojan
+  password: ZEROXNXX-XXXXXX-XXX
+  skip-cert-verify: true
+  network: ws
+  sni: wildcard.zerostore.tech
+  ws-opts:
+    path: /trojan=206.84.101.83=8443
+    headers:
+      Host: wildcard.zerostore.tech
+  udp: true
+- name: Digitalocean, LLC
+  server: quiz.int.vidio.com
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: free.tunneling.qzz.io
+  network: ws
+  ws-opts:
+    path: /178.128.80.43=443
+    headers:
+      Host: free.tunneling.qzz.io
+  udp: true
