@@ -13,21 +13,19 @@ proxies:
     headers:
       Host: support.zoom.us.id.zidstore.net
   udp: true
-- name: VMess-WS-TLS-443-50ikadahaika
+- name: natanvpn
   server: support.zoom.us
-  type: vmess
+  type: vless
   port: 443
-  uuid: d6a96197-7da3-449f-8f23-a64fdb858cd0
-  alterId: 0
-  cipher: auto
+  uuid: ead251f2-bbcb-406c-b1ff-a8a755556e49
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.ikada.sing-box.space
+  servername: support.zoom.us.3.round.web.id
   network: ws
   ws-opts:
-    path: /expert-implement-to-blockchain/buy-vmess-ws-pm-telegram-at-synricha
+    path: /vless
     headers:
-      Host: support.zoom.us.ikada.sing-box.space
+      Host: support.zoom.us.3.round.web.id
   udp: true
 - name: Digitalocean, LLC
   server: support.zoom.us
