@@ -1,4 +1,19 @@
 proxies:
+- name: (ID) Pt Pusat Media 🇮🇩
+  type: vless
+  server: ava.game.naver.com
+  port: 443
+  uuid: 22583791-3b67-4926-9228-f35393acdac9
+  cipher: none
+  skip-cert-verify: true
+  servername: ava.game.naver.com.violetvpn.my.id
+  tls: true
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: ava.game.naver.com.violetvpn.my.id
+  udp: true
 - name: (SG) Contabo Asia 🇸🇬
   type: vless
   server: ava.game.naver.com
