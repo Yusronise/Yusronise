@@ -1,44 +1,31 @@
 proxies:
-- name: bumiayuvpn
-  server: chat.sociomile.com
-  type: vmess
-  port: 443
-  uuid: fe759822-d916-4306-8200-95be5d0bfbc9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: jokowilovers.bumiayu.cloud
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: jokowilovers.bumiayu.cloud
-  udp: true
-- name: PT MITRA VISIONER 🇮🇩
-  server: chat.sociomile.com
-  port: 443
-  type: trojan
-  password: ZEROXNXX-XXXXXX-XXX
-  skip-cert-verify: true
-  network: ws
-  sni: wildcard.zerostore.tech
-  ws-opts:
-    path: /trojan=206.84.101.83=8443
-    headers:
-      Host: wildcard.zerostore.tech
-  udp: true
-- name: Digitalocean, LLC
-  server: chat.sociomile.com
+- name: (SG) Contabo Asia 🇸🇬
   type: vless
+  server: ava.game.naver.com
   port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  tls: true
+  uuid: 16a54bc3-73a1-4eb1-babd-bfcc795669a3
+  cipher: none
   skip-cert-verify: true
-  servername: free.tunneling.qzz.io
+  servername: ava.game.naver.com.violetvpn.my.id
+  tls: true
   network: ws
   ws-opts:
-    path: /178.128.80.43=443
+    path: /sg-cntb
     headers:
-      Host: free.tunneling.qzz.io
+      Host: ava.game.naver.com.violetvpn.my.id
+  udp: true
+- name: (SG) Digitalocean, LLC 🇸🇬
+  type: vless
+  server: ava.game.naver.com
+  port: 443
+  uuid: 1be5e212-c618-4097-affb-18f08a1827d1
+  cipher: none
+  skip-cert-verify: true
+  servername: ava.game.naver.com.violetvpn.my.id
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sg-do
+    headers:
+      Host: ava.game.naver.com.violetvpn.my.id
   udp: true
