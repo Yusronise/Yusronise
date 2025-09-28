@@ -1,4 +1,19 @@
 proxies:
+- name: (ID) Pt Pusat Media 🇮🇩
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: 9ab0dbf3-0ed7-4de3-b89d-8b41155e8694
+  cipher: none
+  skip-cert-verify: true
+  servername: quiz.int.vidio.com.violetvpn.my.id
+  tls: true
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: quiz.int.vidio.com.violetvpn.my.id
+  udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: quiz.int.vidio.com
   type: vless
