@@ -14,3 +14,20 @@ proxies:
     headers:
       Host: support.zoom.us.violetvpn.my.id
   udp: true
+  interface-name: usb0
+- name: AKUN GAME
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: 52eb1ba4-6355-4029-9ca3-38ce8933603f
+  cipher: none
+  skip-cert-verify: true
+  servername: support.zoom.us.violetvpn.my.id
+  tls: true
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: support.zoom.us.violetvpn.my.id
+  udp: true
+  interface-name: usb1
