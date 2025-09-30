@@ -1,4 +1,18 @@
 proxies:
+- name: VLESS-WS-TLS-443-momon
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 07e7fce7-9d84-4173-8952-f5f1959a41a9
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ckzk.xyz
+  network: ws
+  ws-opts:
+    path: /in-depth-deploy-to-mobile-app-development/buy-vless-ws-pm-telegram-at-synricha
+    headers:
+      Host: support.zoom.us.ckzk.xyz
+  udp: true
 - name: (ID) Pt Pusat Media 🇮🇩
   type: vless
   server: support.zoom.us
