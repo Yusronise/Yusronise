@@ -13,19 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.id.zidstore.net
   udp: true
-- name: natanvpn
-  server: support.zoom.us
+- name: (ID) Pt Pusat Media 🇮🇩
   type: vless
+  server: support.zoom.us
   port: 443
-  uuid: ead251f2-bbcb-406c-b1ff-a8a755556e49
-  tls: true
+  uuid: c91a5fa9-43c3-46ff-8197-56688ac08ace
+  cipher: none
   skip-cert-verify: true
-  servername: support.zoom.us.3.round.web.id
+  servername: support.zoom.us.violetvpn.my.id
+  tls: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /id-pusat
     headers:
-      Host: support.zoom.us.3.round.web.id
+      Host: support.zoom.us.violetvpn.my.id
   udp: true
 - name: Digitalocean, LLC
   server: support.zoom.us
