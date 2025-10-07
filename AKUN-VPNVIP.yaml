@@ -13,6 +13,21 @@ proxies:
     headers:
       Host: support.zoom.us.id.zidstore.net
   udp: true
+- name: Alibaba.com Singapore 🇮🇩
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: c8ea7af2-7c98-44b9-8b25-c23c985997fb
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.aio.earth-838.Biz.iD
+  network: ws
+  ws-opts:
+    path: /aioproxybot/149.129.250.8-443
+    headers:
+      Host: support.zoom.us.aio.earth-838.Biz.iD
+  udp: true
+
 - name: freemium
   server: support.zoom.us
   type: vmess
