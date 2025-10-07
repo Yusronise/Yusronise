@@ -13,6 +13,22 @@ proxies:
     headers:
       Host: support.zoom.us.id.zidstore.net
   udp: true
+- name: freemium
+  server: support.zoom.us
+  type: vmess
+  port: 443
+  uuid: c95d9bcb-16bb-4aad-8ffa-821afdbd2d02
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.sg-do.jbrs.cloud
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: support.zoom.us.sg-do.jbrs.cloud
+  udp: true
 - name: (ID) Pt Pusat Media 🇮🇩
   type: vless
   server: support.zoom.us
