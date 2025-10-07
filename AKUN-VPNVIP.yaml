@@ -27,7 +27,6 @@ proxies:
     headers:
       Host: support.zoom.us.aio.earth-838.Biz.iD
   udp: true
-
 - name: freemium
   server: support.zoom.us
   type: vmess
