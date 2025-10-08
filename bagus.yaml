@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.ger.spidermanprem.online
   udp: true
+- name: 2 🇮🇩 Amazon.com WS TLS [gamang]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 890df0f2-0c93-4b4e-8375-64b78f8e56f1
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.gamang.gpj2.dpdns.org
+  network: ws
+  ws-opts:
+    path: /Free-VPN-Geo-Project/43.218.77.16-443
+    headers:
+      Host: support.zoom.us.gamang.gpj2.dpdns.org
+  udp: true
 - name: Alibaba.com Singapore 🇮🇩
   server: support.zoom.us
   type: vless
@@ -69,46 +83,4 @@ proxies:
     path: /trojan=206.84.101.83=8443
     headers:
       Host: support.zoom.us.wildcard.zerostore.tech
-  udp: true
-- name: Digitalocean, LLC
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.free.tunneling.qzz.io
-  network: ws
-  ws-opts:
-    path: /178.128.80.43=443
-    headers:
-      Host: support.zoom.us.free.tunneling.qzz.io
-  udp: true
-- name: Alibaba Cloud [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.afrcloud.web.id
-  network: ws
-  ws-opts:
-    path: /nzr/149.129.250.8-443
-    headers:
-      Host: support.zoom.us.afrcloud.web.id
-  udp: true
-- name: CV. Rumahweb Indonesia [VLESS-TLS]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 455b7d47-a1cc-4c4b-b6fe-9c061d09c259
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.afrcloud.web.id
-  network: ws
-  ws-opts:
-    path: /nzr/203.194.112.119-8443
-    headers:
-      Host: support.zoom.us.afrcloud.web.id
   udp: true
