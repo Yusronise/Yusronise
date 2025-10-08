@@ -13,3 +13,17 @@ proxies:
     headers:
       Host: ava.game.naver.com.ger.spidermanprem.online
   udp: true
+- name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.stbwrt.web.id
+  network: ws
+  ws-opts:
+    path: /Inconigto-Mode/156.244.1.250-8443
+    headers:
+      Host: ava.game.naver.com.stbwrt.web.id
+  udp: true
