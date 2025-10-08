@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.ger.spidermanprem.online
   udp: true
+- name: 31 🇮🇩 PT Telekomunikasi Indonesia
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: a7fa1cda-d5fe-4a29-b7a0-aed69a0d722e
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ndygaming.web.id
+  network: ws
+  ws-opts:
+    path: /36.95.152.58-12137
+    headers:
+      Host: support.zoom.us.vip.ndygaming.web.id
+  udp: true
 - name: 2 🇮🇩 Amazon.com WS TLS [gamang]
   server: support.zoom.us
   type: vless
