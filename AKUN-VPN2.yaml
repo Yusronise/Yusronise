@@ -1,4 +1,18 @@
 proxies:
+- name: masterofpuppet
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 6e2a82a6-1f01-42cf-8418-7d0e93552709
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ger.spidermanprem.online
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: support.zoom.us.ger.spidermanprem.online
+  udp: true
 - name: Alibaba.com Singapore 🇮🇩
   server: support.zoom.us
   type: vless
