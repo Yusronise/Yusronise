@@ -1,1 +1,15 @@
-
+proxies:
+- name: masterofpuppet
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: 6e2a82a6-1f01-42cf-8418-7d0e93552709
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.ger.spidermanprem.online
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ava.game.naver.com.ger.spidermanprem.online
+  udp: true
