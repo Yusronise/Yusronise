@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.ger.spidermanprem.online
   udp: true
+- name: 2 🇮🇩 Amazon.com WS TLS [gamang]
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 890df0f2-0c93-4b4e-8375-64b78f8e56f1
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.gamang.gpj2.dpdns.org
+  network: ws
+  ws-opts:
+    path: /Free-VPN-Geo-Project/43.218.77.16-443
+    headers:
+      Host: support.zoom.us.gamang.gpj2.dpdns.org
+  udp: true
 - name: isee
   server: support.zoom.us
   type: vless
