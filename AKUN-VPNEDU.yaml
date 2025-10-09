@@ -1,46 +1,28 @@
 proxies:
-- name: (ID) Pt Pusat Media 🇮🇩
-  type: vless
+- name: Alibaba us Technology NEW
   server: ava.game.naver.com
   port: 443
-  uuid: 22583791-3b67-4926-9228-f35393acdac9
-  cipher: none
+  type: trojan
+  password: ZEROXNXX-XXXXXX-XXX
   skip-cert-verify: true
-  servername: ava.game.naver.com.violetvpn.my.id
-  tls: true
+  sni: ava.game.naver.com.wildcard.zerostore.org
   network: ws
   ws-opts:
-    path: /id-pusat
+    path: /trojan=47.245.95.160=1443
     headers:
-      Host: ava.game.naver.com.violetvpn.my.id
+      Host: ava.game.naver.com.wildcard.zerostore.org
   udp: true
-- name: (SG) Contabo Asia 🇸🇬
-  type: vless
+- name: Digitalocean, LLC
   server: ava.game.naver.com
+  type: vless
   port: 443
-  uuid: 16a54bc3-73a1-4eb1-babd-bfcc795669a3
-  cipher: none
-  skip-cert-verify: true
-  servername: ava.game.naver.com.violetvpn.my.id
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.free.tunneling.qzz.io
   network: ws
   ws-opts:
-    path: /sg-cntb
+    path: /178.128.80.43=443
     headers:
-      Host: ava.game.naver.com.violetvpn.my.id
-  udp: true
-- name: (SG) Digitalocean, LLC 🇸🇬
-  type: vless
-  server: ava.game.naver.com
-  port: 443
-  uuid: 1be5e212-c618-4097-affb-18f08a1827d1
-  cipher: none
-  skip-cert-verify: true
-  servername: ava.game.naver.com.violetvpn.my.id
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sg-do
-    headers:
-      Host: ava.game.naver.com.violetvpn.my.id
+      Host: ava.game.naver.com.free.tunneling.qzz.io
   udp: true
