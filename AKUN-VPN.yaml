@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.afrcloud.fun
   udp: true
+- name: ID Lightnode Limited
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /156.244.1.250-8443
+    headers:
+      Host: support.zoom.us.free.mediafairy.web.id
+  udp: true
 - name: ID - Lightnode Limited [VLESS-TLS]
   server: support.zoom.us
   type: vless
