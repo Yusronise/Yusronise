@@ -13,3 +13,17 @@ proxies:
     headers:
       Host: support.zoom.us.ckzk.xyz
   udp: true
+- name: SG Oracle CorporationXLBIZ
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /158.178.236.14-61731
+    headers:
+      Host: support.zoom.us.free.mediafairy.web.id
+  udp: true
