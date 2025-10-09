@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: ava.game.naver.com.afrcloud.fun
   udp: true
+- name: ID Lightnode Limited
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /156.244.1.250-8443
+    headers:
+      Host: ava.game.naver.com.free.mediafairy.web.id
+  udp: true
 - name: ID - Lightnode Limited [VLESS-TLS]
   server: ava.game.naver.com
   type: vless
