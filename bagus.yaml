@@ -1,75 +1,30 @@
 proxies:
-- name: masterofpuppet
+- name: Alibaba us Technology NEW
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: ZEROXNXX-XXXXXX-XXX
+  skip-cert-verify: true
+  sni: support.zoom.us.wildcard.zerostore.org
+  network: ws
+  ws-opts:
+    path: /trojan=47.245.95.160=1443
+    headers:
+      Host: support.zoom.us.wildcard.zerostore.org
+  udp: true
+- name: Digitalocean, LLC
   server: support.zoom.us
   type: vless
   port: 443
-  uuid: 6e2a82a6-1f01-42cf-8418-7d0e93552709
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.ger.spidermanprem.online
+  servername: support.zoom.us.free.tunneling.qzz.io
   network: ws
   ws-opts:
-    path: /vless
+    path: /178.128.80.43=443
     headers:
-      Host: support.zoom.us.ger.spidermanprem.online
-  udp: true
-- name: 31 🇮🇩 PT Telekomunikasi Indonesia
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: a7fa1cda-d5fe-4a29-b7a0-aed69a0d722e
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.ndygaming.web.id
-  network: ws
-  ws-opts:
-    path: /36.95.152.58-12137
-    headers:
-      Host: support.zoom.us.vip.ndygaming.web.id
-  udp: true
-- name: 2 🇮🇩 Amazon.com WS TLS [gamang]
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: 890df0f2-0c93-4b4e-8375-64b78f8e56f1
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.gamang.gpj2.dpdns.org
-  network: ws
-  ws-opts:
-    path: /Free-VPN-Geo-Project/43.218.77.16-443
-    headers:
-      Host: support.zoom.us.gamang.gpj2.dpdns.org
-  udp: true
-- name: Alibaba.com Singapore 🇮🇩
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: c8ea7af2-7c98-44b9-8b25-c23c985997fb
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.aio.earth-838.Biz.iD
-  network: ws
-  ws-opts:
-    path: /aioproxybot/149.129.250.8-443
-    headers:
-      Host: support.zoom.us.aio.earth-838.Biz.iD
-  udp: true
-- name: freemium
-  server: support.zoom.us
-  type: vmess
-  port: 443
-  uuid: c95d9bcb-16bb-4aad-8ffa-821afdbd2d02
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.sg-do.jbrs.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: support.zoom.us.sg-do.jbrs.cloud
+      Host: support.zoom.us.free.tunneling.qzz.io
   udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
@@ -84,17 +39,4 @@ proxies:
     path: /Inconigto-Mode/156.244.1.250-8443
     headers:
       Host: support.zoom.us.stbwrt.web.id
-  udp: true
-- name: PT MITRA VISIONER 🇮🇩
-  server: support.zoom.us
-  port: 443
-  type: trojan
-  password: ZEROXNXX-XXXXXX-XXX
-  skip-cert-verify: true
-  network: ws
-  sni: support.zoom.us.wildcard.zerostore.tech
-  ws-opts:
-    path: /trojan=206.84.101.83=8443
-    headers:
-      Host: support.zoom.us.wildcard.zerostore.tech
   udp: true
