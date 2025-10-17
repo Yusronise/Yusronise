@@ -27,33 +27,6 @@ proxies:
     headers:
       Host: ava.game.naver.com.free.mediafairy.web.id
   udp: true
-- name: Alibaba us Technology NEW
-  server: ava.game.naver.com
-  port: 443
-  type: trojan
-  password: ZEROXNXX-XXXXXX-XXX
-  skip-cert-verify: true
-  sni: ava.game.naver.com.wildcard.zerostore.org
-  network: ws
-  ws-opts:
-    path: /trojan=47.245.95.160=1443
-    headers:
-      Host: ava.game.naver.com.wildcard.zerostore.org
-  udp: true
-- name: Digitalocean, LLC
-  server: ava.game.naver.com
-  type: vless
-  port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.free.tunneling.qzz.io
-  network: ws
-  ws-opts:
-    path: /178.128.80.43=443
-    headers:
-      Host: ava.game.naver.com.free.tunneling.qzz.io
-  udp: true
 - name: SG Oracle CorporationXLBIZ
   server: ava.game.naver.com
   type: vless
@@ -67,75 +40,6 @@ proxies:
     path: /158.178.236.14-61731
     headers:
       Host: ava.game.naver.com.free.mediafairy.web.id
-  udp: true
-- name: ID - Ciputra World [VLESS-TLS]
-  server: ava.game.naver.com
-  type: vless
-  port: 443
-  uuid: e6fe44d7-d6a6-4b18-9f77-529688f90ca8
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.afrcloud.fun
-  network: ws
-  ws-opts:
-    path: /149.129.250.8:443
-    headers:
-      Host: ava.game.naver.com.afrcloud.fun
-  udp: true
-- name: ID - Lightnode Limited [VLESS-TLS]
-  server: ava.game.naver.com
-  type: vless
-  port: 443
-  uuid: e6fe44d7-d6a6-4b18-9f77-529688f90ca8
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.afrcloud.fun
-  network: ws
-  ws-opts:
-    path: /156.244.1.250:8443
-    headers:
-      Host: ava.game.naver.com.afrcloud.fun
-  udp: true
-- name: SG Oracle CorporationXLBIZ
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.free.mediafairy.web.id
-  network: ws
-  ws-opts:
-    path: /158.178.236.14-61731
-    headers:
-      Host: support.zoom.us.free.mediafairy.web.id
-  udp: true
-- name: Alibaba us Technology NEW
-  server: support.zoom.us
-  port: 443
-  type: trojan
-  password: ZEROXNXX-XXXXXX-XXX
-  skip-cert-verify: true
-  sni: support.zoom.us.wildcard.zerostore.org
-  network: ws
-  ws-opts:
-    path: /trojan=47.245.95.160=1443
-    headers:
-      Host: support.zoom.us.wildcard.zerostore.org
-  udp: true
-- name: Digitalocean, LLC
-  server: support.zoom.us
-  type: vless
-  port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.free.tunneling.qzz.io
-  network: ws
-  ws-opts:
-    path: /178.128.80.43=443
-    headers:
-      Host: support.zoom.us.free.tunneling.qzz.io
   udp: true
 - name: ID - Kaopu Cloud HK Limited [VLESS-TLS]
   server: support.zoom.us
