@@ -95,12 +95,6 @@ proxies:
     path: /156.244.1.250:8443
     headers:
       Host: ava.game.naver.com.afrcloud.fun
-  udp: true  servername: support.zoom.us.afrcloud.fun
-  network: ws
-  ws-opts:
-    path: /156.244.1.250:8443
-    headers:
-      Host: support.zoom.us.afrcloud.fun
   udp: true
 - name: SG Oracle CorporationXLBIZ
   server: support.zoom.us
