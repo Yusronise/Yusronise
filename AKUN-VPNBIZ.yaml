@@ -1,4 +1,18 @@
 proxies:
+- name: Amazoncom Inc
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.ayo.ngopi.qzz.io
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: ava.game.naver.com.ayo.ngopi.qzz.io
+  udp: true
 - name: ID Lightnode Limited
   server: ava.game.naver.com
   type: vless
