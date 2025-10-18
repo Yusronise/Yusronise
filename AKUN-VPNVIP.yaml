@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: ava.game.naver.com.id14.keong.store
   udp: true
+- name: 6 🇸🇬 Akamai Connected Cloud WS NTLS [vless]
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: 4100f269-643f-4fae-8968-2bf3683cac77
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.katheryne.lastsymp.biz.id
+  network: ws
+  ws-opts:
+    path: /103.3.60.208-587
+    headers:
+      Host: ava.game.naver.com.katheryne.lastsymp.biz.id
+  udp: true
 - name: ID Lightnode Limited
   server: ava.game.naver.com
   type: vless
