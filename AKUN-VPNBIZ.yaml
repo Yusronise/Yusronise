@@ -27,19 +27,19 @@ proxies:
     headers:
       Host: ava.game.naver.com.ayo.ngopi.qzz.io
   udp: true
-- name: ID Lightnode Limited
+- name: natanvpn
   server: ava.game.naver.com
   type: vless
   port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 84dd0770-be5f-45f6-b6d9-bfb0740867d0
   tls: true
   skip-cert-verify: true
-  servername: ava.game.naver.com.free.mediafairy.web.id
+  servername: ava.game.naver.com.2.round.web.id
   network: ws
   ws-opts:
-    path: /156.244.1.250-8443
+    path: /vless
     headers:
-      Host: ava.game.naver.com.free.mediafairy.web.id
+      Host: ava.game.naver.com.2.round.web.id
   udp: true
 - name: Alibaba us Technology NEW
   server: ava.game.naver.com
