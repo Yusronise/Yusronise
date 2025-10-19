@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: support.zoom.us.free.fridom.qzz.io
   udp: true
+- name: Amazoncom Inc
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.ayo.ngopi.qzz.io
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: support.zoom.us.ayo.ngopi.qzz.io
+  udp: true
 - name: Amazoncom 
   server: support.zoom.us
   type: vless
