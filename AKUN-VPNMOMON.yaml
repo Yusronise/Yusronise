@@ -13,6 +13,21 @@ proxies:
     headers:
       Host: support.zoom.us.ckzk.xyz
   udp: true
+- name: (SG) GREEN FLOID 🇸🇬
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: a3ded808-6475-4676-9d10-1ae3599162ad
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.lsvly.dpdns.org
+  ws-opts:
+    path: /sg-green
+    headers:
+      Host: support.zoom.us.lsvly.dpdns.org
+  udp: true
 - name: Amazoncom 
   server: support.zoom.us
   type: vless
