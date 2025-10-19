@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: ava.game.naver.com.free.fridom.qzz.io
   udp: true
+- name: (SG) Akamai Technologies 🇸🇬
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: 3b08258d-d995-4545-b796-99df9e184b8d
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.lsvly.dpdns.org
+  network: ws
+  ws-opts:
+    path: /sg-akm
+    headers:
+      Host: ava.game.naver.com.lsvly.dpdns.org
+  udp: true
 - name: Amazoncom Inc
   server: ava.game.naver.com
   type: vless
