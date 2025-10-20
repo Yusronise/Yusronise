@@ -1,4 +1,18 @@
 proxies:
+- name: (SG) Akamai Technologies 🇸🇬
+  server: support.zoom.us
+  type: vless
+  port: 443
+  uuid: 7b395981-5f99-4c7c-b47a-a83ad6501024
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.lsvly.dpdns.org
+  network: ws
+  ws-opts:
+    path: /sg-akm
+    headers:
+      Host: support.zoom.us.lsvly.dpdns.org
+  udp: true
 - name: (ID) Rumahweb 🇮🇩
   server: support.zoom.us
   port: 443
