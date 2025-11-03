@@ -1,4 +1,18 @@
 proxies:
+- name: isevip
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: bf583585-c996-4a6a-bd08-2f4b94de713a
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.id14.keong.store
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ava.game.naver.com.id14.keong.store
+  udp: true
 - name: Amazoncom Inc2
   server: ava.game.naver.com
   type: vless
