@@ -1,4 +1,18 @@
 proxies:
+- name: iseeken
+  server: ava.game.naver.com
+  type: vless
+  port: 443
+  uuid: 6a149dd8-e680-47ac-ad8a-9270086113ba
+  tls: true
+  skip-cert-verify: true
+  servername: ava.game.naver.com.1.keree.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ava.game.naver.com.1.keree.web.id
+  udp: true
 - name: isevip
   server: ava.game.naver.com
   type: vless
